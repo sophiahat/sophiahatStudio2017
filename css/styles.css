@@ -1,0 +1,169 @@
+body {
+	background-color:hsl(28, 10%, 90%);
+	padding-top:51px;
+}
+
+.nav, .pagination, .carousel, .panel-title a { 
+    cursor: pointer; 
+}
+
+#carousel-main {
+    margin: 0 auto 0;
+    max-height: 300px;
+    max-width: 100%;
+    overflow: hidden;    
+}
+
+#carousel-main img {
+    height: inherit;
+/*    min-height: 400px;*/
+    width: 100%;     
+}
+/*
+#jumboNavbar {
+	margin-bottom:0px;
+	max-width: 960px;
+	max-height: 15px;
+}
+.jumbotron {
+	padding-top:135px;
+	background-color:black;
+	background-image:url(../images/BannerNew2.jpg);
+	color:white;
+	padding-bottom:0px;
+	
+}
+.jumbotron h3 {
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+*/
+
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+
+p {
+	text-align:justify;
+}
+p::first-letter {
+	font-size:130%;
+}
+.mainText {
+	background-image: url(../images/SophiaHatTracking1_1subdued2.jpg);
+	background-size: 200%;
+	background-repeat:repeat;
+	padding:10px;
+	padding-bottom:60px;
+}
+figcaption {
+	font-size: 80%;
+	font-style:italic;
+}
+#layout {
+	align-content:center;
+	text-align:center;
+}
+.sidebar-image {
+	text-align:center;
+	align-content:center;
+	margin-bottom:30px;
+}
+aside {
+	background:hsl(210, 10%, 93%);
+	padding:10px;
+	padding-bottom:60px;
+}
+#cd-focus {
+	background:hsl(210, 10%, 93%);
+}
+#cd-focus img {
+	width:200px;
+	height:200px;
+}
+a {
+	color:brown;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	background-color:hsl(210, 10%, 93%);
+}
+.accordion h4.panel-title {
+    cursor: pointer;
+}
+
+.scroll-box {
+	overflow:auto;
+	height:200px;
+}
+#audio-player {
+/*	padding-top:70px;*/
+	
+}
+.cd-images img {
+	width:7.5em;
+	height:7.5em;
+}
+#trackDetails {
+	padding-top:4px;
+}
+#videos {
+	padding-top:50px;
+}
+#videos img {
+	width:25%;
+	height:25%;
+}
+#video-player {
+	width:300px;
+}
+.clients img {
+	width:100px;
+	height:100px;
+}
+.clients td {
+	background:hsl(210, 10%, 93%);
+}
+#booking-form iframe{
+	width:600px;
+	height:555px;
+}
+#booking-form {
+	text-align:center;
+	align-content:center;
+}
+footer {
+	margin-top:100px;
+}
+
+.footer-nav {
+    margin-right: 5px;
+}
+#track a {
+	padding-right:1em;
+}
+#audio-message {
+	font-size: .75em;
+	
+}

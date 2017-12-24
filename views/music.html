@@ -1,0 +1,42 @@
+<section>
+    <div class = "row">
+        <div class = "col-md-8 mainText">
+            <header role="heading">
+            <h1>Music</h1>
+            </header>
+            <section>
+                <div id="cd-focus" class="well">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <figure>
+                            <img id="image" class="img-thumbnail" src="images/cd_images/DougMillerCDcover.jpg">
+                            </figure>
+                        </div>
+                        <div class="col-md-7">
+                            <figcaption id="trackDetails">
+                            <p><strong>Artist: </strong><span id="artist">Doug Miller</span></p>
+                            <p><strong>Album: </strong><span id="album">Regeneration</span></p>
+                            <p><strong id="trackTitle">Track: </strong><span id="track">Lighten Up</span></p>
+                            <p><a id="website" href="http://originarts.com/recordings/recording.php?TitleID=82505" target="_blank">Website</a></p>
+                            </figcaption>
+                            <audio id="audio-player" controls="controls"  >
+                                <source id="mp3-source" src="audio/LightenUp_DougMiller.mp3" type="audio/mp3">
+                                <source id="ogg-source" src="audio/LightenUp_DougMiller.oga" type="audio/ogg">
+                    Your Browser does not support the HTML5 Audio element.
+                            </audio>
+                            <div id="audio-message"><i>select a track title above or album cover below to listen</i></div>
+                        </div>
+                    </div>						
+                </div>
+                <div class="cd-images" id="cd_images"></div>
+
+            </section>
+        </div>
+
+        <div class = "col-md-4">
+            <aside role="complementary">
+                <div class="aside" role="complementary" ng-include="'views/sdbr-standard.html'"></div>
+            </aside>
+        </div>
+    </div>
+</section>

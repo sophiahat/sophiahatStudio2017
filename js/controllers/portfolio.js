@@ -9,6 +9,24 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
 //    
 //    });
     
+    // tab management
+    $scope.tab = 2;
+    $scope.setTab = function(newTab) {
+        $scope.tab = newTab;
+    };
+
+    $scope.isSet = function(tabNum) {
+        console.log("Tab is" +tabNum);
+        return $scope.tab === tabNum;
+    };
+    $scope.subTab = 3;
+    $scope.setSubTab = function(newSubTab) {
+        $scope.subTab = newSubTab;  
+    };
+    $scope.subIsSet = function(subTabNum) {
+        return $scope.subTab === subTabNum;
+    };
+    
     var videosRef = firebase.database().ref('/video');
     var videosInfo = $firebaseArray(videosRef);
     $scope.videos = videosInfo;
@@ -16,9 +34,11 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
     var audioRef = firebase.database().ref('/audio');
     var audioInfo = $firebaseArray(audioRef);
     $scope.audio = audioInfo;
-    console.log("Audio Object from database: "); 
-    console.log($scope.audio);
     var audioplayer = $('#audio-player');
+    
+    var albumsRef = firebase.database().ref('/albums');
+    var albumsInfo = $firebaseArray(albumsRef);
+    $scope.albums = albumsInfo;
     
     function setAutoplayAudio() {
         audioplayer.attr('autoplay', 'autoplay');
@@ -34,8 +54,10 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         
         var link = "/audio/" + audio.src;
         
-        audioplayer.attr('src', link);
-        
+        audioplayer.attr('src', link);  
+    }
+    function getAlbumInfo(album) {
+        console.log('get album info engaged');
     }
     
     audioInfo.$loaded().then(function(audioInfo) {

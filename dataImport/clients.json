@@ -1,0 +1,442 @@
+[
+ {
+   "clientID": 1,
+   "name": "The Kathy Moore Situation",
+   "website": "http://innocentwords.com/kathy-moore-tone-completely-her-own/",
+   "image": "KathyMoore2.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 2,
+   "name": "Jeff Busch",
+   "website": "http://www.artno.com/bongo/",
+   "image": "JeffBusch.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 3,
+   "name": "Total Experience Gospel Choir",
+   "website": "http://www.totalexperiencegospelchoir.org/",
+   "image": "TotalExperience.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 4,
+   "name": "Matt Jorgensen",
+   "website": "http://www.mattjorgensen.com/",
+   "image": "MattJorgensen.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 5,
+   "name": "Big Neighborhood",
+   "website": "http://originarts.com/recordings/recording.php?TitleID=82467",
+   "image": "BigNeighborhood.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 6,
+   "name": "Juke",
+   "website": "http://www.jukesongs.com/",
+   "image": "juke.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 7,
+   "name": "May Palmer",
+   "website": "http://www.maypalmer.com/",
+   "image": "MayPalmer.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 8,
+   "name": "Doug Miller",
+   "website": "http://www.origin-records.com/artists/artist.php?Artist_ID=31",
+   "image": "DougMiller.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 9,
+   "name": "Cynthia Mullis",
+   "website": "http://www.cynthiamullis.com/",
+   "image": "CynthiaMullis.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 10,
+   "name": "Heather Banker",
+   "website": "http://heatherbblues.com/index.html",
+   "image": "HeatherBanker.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 11,
+   "name": "Motel 5",
+   "website": "http://www.myspace.com/motel5",
+   "image": "Motel5.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 12,
+   "name": "Seattle Womens Jazz Orchestra",
+   "website": "http://www.swojo.com/",
+   "image": "Swojo.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 13,
+   "name": "Katy Bourne",
+   "website": "http://katy-bourne.com/",
+   "image": "KatyBourne.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 14,
+   "name": "Ryan Graves",
+   "website": "http://www.cdbaby.com/Artist/RyanGraves1",
+   "image": "RyanGraves.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 15,
+   "name": "Thornton Creek",
+   "website": "http://www.thorntoncreek.com/",
+   "image": "ThorntonCreek.jpg",
+   "type": "musician",
+   "active": true
+ },
+ {
+   "clientID": 16,
+   "name": "Professional Entertainment Consultants",
+   "website": "http://www.pro-ent.com",
+   "image": "ProfessionalEntertainmentConsultants.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 17,
+   "name": "Partners in Prime",
+   "website": "http://www.partnersinprime.net",
+   "image": "PartnersinPrime.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 18,
+   "name": "Thievery Productions",
+   "website": "http://www.thieveryproductions.com/",
+   "image": "ThieveryProductions.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 19,
+   "name": "GDL Multimedia",
+   "website": "http://www.itbooks.net/book/Tappans-Burro/9781602451193/",
+   "image": "GDLMultimedia.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 20,
+   "name": "Sebastion T     Sweet     Productions",
+   "website": "http://www.sablejak.com/",
+   "image": "SableJak.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 21,
+   "name": "Becker&Mayer!",
+   "website": "http://beckermayer.com/",
+   "image": "BeckerMeyer.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 22,
+   "name": "Loose Canon Studios",
+   "website": "http://www.ign.com/companies/loose-cannon-studios",
+   "image": "LooseCanonStudios.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 23,
+   "name": "The Midnight Mystery Radio Theatre",
+   "website": "http://mmt.moonfruit.com/",
+   "image": "MidnightMysteryTheatre.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 24,
+   "name": "Conexion Marketing",
+   "website": "https://www.linkedin.com/company/conexi-n-marketing",
+   "image": "ConexionMarketing.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 25,
+   "name": "LarkWire",
+   "website": "http://larkwire.com/",
+   "image": "Larkwire.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 26,
+   "name": "Mithun",
+   "website": "http://mithun.com/",
+   "image": "Mithun.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 27,
+   "name": "Ember Entertainment",
+   "website": "http://www.ember-entertainment.com",
+   "image": "EmberEntertainment.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 28,
+   "name": "Gun Media",
+   "website": "http://www.fearthegun.com",
+   "image": "GunMedia.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 29,
+   "name": "Little Films",
+   "website": "http://www.littlefilms.net/",
+   "image": "LittleFilms.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 30,
+   "name": "AT&T",
+   "website": "http://www.att.com",
+   "image": "ATT.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 31,
+   "name": "Mary Lou Williams Documentary",
+   "website": "https://www.facebook.com/marylouwilliamsproject/timeline",
+   "image": "MaryLouWilliams.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 32,
+   "name": "Patrick Barta Photography",
+   "website": "http://www.bartaphoto.com/",
+   "image": "PatrickBartaPhotography.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 33,
+   "name": "Tiffany Talent",
+   "website": "http://tiffanytalent.com/",
+   "image": "TiffanyTalent.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 34,
+   "name": "Plus Citizen",
+   "website": "https://www.pluscitizen.com/",
+   "image": "PlusCitizen.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 35,
+   "name": "David Albright Media",
+   "website": "http://www.dalbright.com/",
+   "image": "",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 36,
+   "name": "AllRecipies.com",
+   "website": "http://allrecipes.com/",
+   "image": "AllRecipes.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 37,
+   "name": "ADP",
+   "website": "http://www.adp.com/",
+   "image": "Adp.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 38,
+   "name": "The Off Hours Film",
+   "website": "http://www.theoffhoursfilm.com/",
+   "image": "TheOffHoursFilm.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 39,
+   "name": "Fairway Studios",
+   "website": "http://www.fairwaystudios.com/",
+   "image": "FairwayStudios.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 40,
+   "name": "Your Sister’s Sister",
+   "website": "http://www.imdb.com/title/tt1742336/?ref_=nm_knf_i1",
+   "image": "",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 41,
+   "name": "Frog Design",
+   "website": "ttp://www.frogdesign.com/",
+   "image": "Frog.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 42,
+   "name": "Media Locate",
+   "website": "http://www.medialocate.com/",
+   "image": "MediaLocate.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 43,
+   "name": "Enter The Studio",
+   "website": "http://enterthestudio.com/",
+   "image": "EnterTheStudio.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 44,
+   "name": "Lion Sky Productions",
+   "website": "http://www.lionskyproductions.com/",
+   "image": "LionSkyProductions.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 45,
+   "name": "North Shore Productions",
+   "website": "http://www.northshorepro.com/",
+   "image": "",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": 46,
+   "name": "Northwest Regional Primary Care Association",
+   "website": "http://www.nwrpca.org/",
+   "image": "NWRPCA.jpg",
+   "type": "corporate",
+   "active": true
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ },
+ {
+   "clientID": null,
+   "name": "",
+   "website": "",
+   "image": "",
+   "type": "",
+   "active": null
+ }
+]

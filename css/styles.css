@@ -2,9 +2,101 @@ body {
 	background-color:hsl(28, 10%, 90%);
 	padding-top:51px;
 }
+main {
+    margin: 15px;
+}
 
 .nav, .pagination, .carousel, .panel-title a { 
     cursor: pointer; 
+}
+
+.inline {
+    float: left;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+
+
+.branding {
+  float: left;
+  margin: 0;
+  margin-top: -7px;
+}
+
+.branding a {
+  width: 80%;
+  font-size: 1.6em;
+  text-align: left;
+  color: #1B7998;
+  text-decoration: none;
+  text-align: left;
+}
+
+.branding a:hover {
+  color: none;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.error {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.news img {
+    float: left;
+    margin: 5px 15px 0 0;
+}
+.news p {
+    padding: 3px 0 10px 0;
+    
+}
+.news-item {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.news-item:hover {
+    background: rgba(120, 120, 120, 0.1);
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid #DA3637;
+}
+
+input.ng-valid.ng-touched {
+  border: 1px solid #509D12;
+}
+
+input {
+  width: 100%;
+  display: inline-block;
+  font-weight: 100;
+  padding: 15px;
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #475B62;
+  border: 1px solid #C5C5C5;
+  border-radius: 4px;
+  outline: 0;
+}
+
+input[type=radio] {
+  width: auto;
 }
 
 #carousel-main {
@@ -19,25 +111,6 @@ body {
 /*    min-height: 400px;*/
     width: 100%;     
 }
-/*
-#jumboNavbar {
-	margin-bottom:0px;
-	max-width: 960px;
-	max-height: 15px;
-}
-.jumbotron {
-	padding-top:135px;
-	background-color:black;
-	background-image:url(../images/BannerNew2.jpg);
-	color:white;
-	padding-bottom:0px;
-	
-}
-.jumbotron h3 {
-	padding-bottom:0px;
-	margin-bottom:0px;
-}
-*/
 
 video::-internal-media-controls-download-button {
     display:none;
@@ -144,6 +217,10 @@ a {
 }
 .clients td {
 	background:hsl(210, 10%, 93%);
+    vertical-align: middle!important;
+}
+.clients td a {
+    display: block;
 }
 #booking-form iframe{
 	width:600px;
@@ -167,3 +244,148 @@ footer {
 	font-size: .75em;
 	
 }
+
+.portfolio img {
+    width: 65px;
+    height: 65px;
+}
+.admin .admin-scrolling-list img,
+.portfolio .video img {
+    max-height: 40px;
+/*    float: left;*/
+
+}
+.admin li,
+.portfolio li {
+    list-style: none;
+}
+
+.portfolio iframe {
+    width: 100%;
+    height: auto;
+/*    float: left;*/
+}
+
+.portfolio .bp-media-settings-show-speed {
+    z-index: 2;
+}
+.portfolio .preview-header-wrapper {
+    z-index: 1;
+}
+
+.portfolio .portfolio-scrolling-list {
+/*    margin-top: 15px;*/
+    overflow: scroll;
+    height: 300px; 
+    
+}
+.preview-header-wrapper {
+    display: none;
+}
+
+.portfolio .video {
+    text-align: center;
+    width: 96%;
+    float: left;
+    height: auto;
+    padding: 5px;
+    margin-left: 1.5%;
+    margin-top: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.portfolio .video a {
+    text-decoration: none;
+}
+.portfolio .portfolio-tabs li {
+    margin: 5px 3px 5px 0;
+}
+
+.portfolio .video:hover {
+    background: rgba(120, 120, 120, 0.1);
+    border-radius: 5px;
+}
+.portfolio .video h5 {
+    height: 45px;
+    padding: 2px 5px 0 5px;
+    text-align: center;
+}
+.displayAudio {
+    border: solid 1px rgba(150, 150, 150, 0.9);
+    background: rgba(245, 245, 245, 0.4);
+    border-radius: 4px;
+}
+
+.displayAudio img {
+   margin: 10px 0 0 5px;
+    height: 60px;
+    float: left;
+}
+
+.audioImg img {
+    margin: 5px 0 5px 5px;
+    height: 40px;
+    float: left;
+}
+.audioTitle {
+    margin: 15px 0 0 10px;
+    width: 35%;
+    float: left;
+}
+.audioTitle span {
+    vertical-align: middle;
+}
+.audiodescription {
+    margin: 5px 5px 5px 0;
+    width: 45%;
+    float: right;
+    overflow-y: scroll;
+    height: 65px;
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.audio-list {
+/*    margin: 10px 0 0 0;*/
+    border: solid 1px rgba(150, 150, 150, 0.9);
+    border-radius: 4px;
+    height: 250px;
+    overflow-y: scroll;
+}
+.audio-list .audio {
+    clear: both;
+    overflow: auto;
+}
+.audio-item {
+    overflow:auto
+}
+.audio-list .audio div:hover {
+    background: rgba(245, 245, 245, 0.4);
+}
+#audio-player {
+    margin: 15px 0 0 0;
+    width: 100%;
+    clear:both;
+    
+}
+/*
+.audio-item div:nth-child(even) {
+   background: grey; 
+}
+*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+

@@ -47,7 +47,8 @@ myApp.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'views/booking.html'
         }).
         when('/clients', {
-            templateUrl: 'views/clients.html'
+            templateUrl: 'views/clients.html',
+            controller: 'ClientController'
         }).
         when('/client-portal', {
             templateUrl: 'views/client-portal.html'

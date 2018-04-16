@@ -1,0 +1,2222 @@
+[
+ {
+   "manufacturer": "Fostex",
+   "model": "CR300",
+   "typeware": "Hardware",
+   "type": "Recorder",
+   "subtype": "CDR 2 - track",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Studer",
+   "model": "D780",
+   "typeware": "Hardware",
+   "type": "Recorder",
+   "subtype": "DAT 2 - track",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Euphonix",
+   "model": "MC Control",
+   "typeware": "Hardware",
+   "type": "Control Surface",
+   "subtype": "",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Neyrinck",
+   "model": "V Control Pro",
+   "typeware": "Software",
+   "type": "Control Surface",
+   "subtype": "",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "AVID",
+   "model": "002 Rack",
+   "typeware": "Hardware",
+   "type": "Recorder",
+   "subtype": "Audio Interface 18 - track",
+   "quantity": 1,
+   "images": "",
+   "description": "Black Lion modified converters and preamps"
+ },
+ {
+   "manufacturer": "AKG",
+   "model": "414",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Multipattern",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "AKG",
+   "model": "C1000",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "AKG",
+   "model": "C3000",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "AKG",
+   "model": "C3000B",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "AKG",
+   "model": "D112",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Audio Technica",
+   "model": "ATM25",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Audio Technica",
+   "model": "AT4033",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Audix",
+   "model": "D5",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Bruel&Kjaer",
+   "model": "B&K 4011",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Beyer Dynamic",
+   "model": "M88 TG",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Beyer Dynamic",
+   "model": "M160N(C)",
+   "typeware": "Microphone",
+   "type": "Ribbon",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Chameleon Labs",
+   "model": "TS-2",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Multipattern",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Earthworks",
+   "model": "TC40k",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Omni",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Electrovoice",
+   "model": "EV ND 468",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Electrovoice",
+   "model": "EV ND 358",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Electrovoice",
+   "model": "EV RE20",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Josephson",
+   "model": "C42",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Neumann",
+   "model": "TLM 103",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Neumann",
+   "model": "SM69 FET",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Multipattern",
+   "quantity": 1,
+   "images": "",
+   "description": "Stereo"
+ },
+ {
+   "manufacturer": "Pacific Pro Audio",
+   "model": "PPA R-2",
+   "typeware": "Microphone",
+   "type": "Ribbon",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Rode",
+   "model": "K2",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Multipattern",
+   "quantity": 1,
+   "images": "",
+   "description": "Tube"
+ },
+ {
+   "manufacturer": "Royer",
+   "model": "R121",
+   "typeware": "Microphone",
+   "type": "Ribbon",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Royer",
+   "model": "SF12",
+   "typeware": "Microphone",
+   "type": "Ribbon",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Sennheiser",
+   "model": "421",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Sennheiser",
+   "model": "604",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 3,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Shiny Box Audio",
+   "model": "46MXL",
+   "typeware": "Microphone",
+   "type": "Ribbon",
+   "subtype": "Cardiod",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Shure",
+   "model": "SM57",
+   "typeware": "Microphone",
+   "type": "Dynamic",
+   "subtype": "Cardiod",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Sony",
+   "model": "C48",
+   "typeware": "Microphone",
+   "type": "Condenser",
+   "subtype": "Multipattern",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "4-10",
+   "typeware": "Hardware",
+   "type": "Preamp",
+   "subtype": "",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Focusrite ",
+   "model": "Red 3",
+   "typeware": "Hardware",
+   "type": "Compressor",
+   "subtype": "",
+   "quantity": 7,
+   "images": "",
+   "description": "2 channel compressor"
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "LA-610",
+   "typeware": "Hardware",
+   "type": "Preamp",
+   "subtype": "",
+   "quantity": 1,
+   "images": "",
+   "description": "single channel preamp with EQ and compression"
+ },
+ {
+   "manufacturer": "Dolby Labs",
+   "model": "DBX 166",
+   "typeware": "Hardware",
+   "type": "Compressor",
+   "subtype": "",
+   "quantity": 1,
+   "images": "",
+   "description": "2 channel compressor"
+ },
+ {
+   "manufacturer": "Focusrite ",
+   "model": "428",
+   "typeware": "Hardware",
+   "type": "Preamp",
+   "subtype": "",
+   "quantity": 1,
+   "images": "",
+   "description": "4 channel mic preamp"
+ },
+ {
+   "manufacturer": "Focusrite",
+   "model": "Red 1",
+   "typeware": "Hardware",
+   "type": "Preamp",
+   "subtype": "",
+   "quantity": 4,
+   "images": "",
+   "description": "4 channel mic preamp"
+ },
+ {
+   "manufacturer": "Antares",
+   "model": "Autotune EVO",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Pitch Correction",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Celemony",
+   "model": "Melodyne Editor",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Pitch Correction",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "EastWest",
+   "model": "Symphonic Orchestra Platinum",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "EastWest",
+   "model": "Symphonic Choirs Platinum",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "EastWest",
+   "model": "Ra",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "EastWest",
+   "model": "Goliath",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "EastWest",
+   "model": "Voices of Passion",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "EastWest",
+   "model": "Storm Drum",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "EastWest",
+   "model": "Pianos Gold",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Eventide",
+   "model": "Ultrachannel",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Channel Strip",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Bandpass",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Filter",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Comb Filter",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Filter",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Contrast",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Delays",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Delay",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Doppler",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Modulation",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Equalize",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Evolution",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Freeze",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Fusion",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Grinder",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Pitch Accumulator",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Reson",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Shift",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Shuffling",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "GRM",
+   "model": "Warp",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "Kontackt 4",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "Reaktor 5",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "Absynth 5",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "Massive",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "Traktor",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "FM8",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "Guitar Rig 3",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Native Instruments",
+   "model": "Battery 3",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Virtual Instrument",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "SoundToys",
+   "model": "Little Radiator",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Harmonic",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "SoundToys",
+   "model": "Radiator",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Harmonic",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "SoundToys",
+   "model": "Little Microshift",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Trillium Labs",
+   "model": "TL Space",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "CS-1",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Channel Strip",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "EL7 Fatso",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "EMT 140",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Fairchild",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Lexicon 224",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Neve 88RS",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Channel Strip",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Ocean Way Studios",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Pultec EQP-1A",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Pultec Pro",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "RealVerb Pro",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Studer A800",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Tape Simulator",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "Teletronix LA-2A",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Universal Audio",
+   "model": "UA 1176 LN",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "WaveMachine Labs",
+   "model": "Drumagog 5",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Drum Replacer",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Aphex Aural Exciter",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "API-550",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "API-560",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "API-2500",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "AudioTrack",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Channel Strip",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "BassRider",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Volume Automation",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "C1",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "C4",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Multiband Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "C6",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Multiband Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "C360",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Multiband Compressor",
+   "quantity": null,
+   "images": "",
+   "description": "Surround Compression"
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Center",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Stereo Field",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA Bass",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA Drums",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA Effects",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA Guitars",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA Unplugged",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA Vocals",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA-2A",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA-3A",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "CLA-76",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "DeBreath",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "DeEsser",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Doppler",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Durrough Surround",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Doubler",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "EddieKramer Bass",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "EddieKramer Drums",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "EddieKramer Effects",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "EddieKramer Guitar",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "EddieKramer Vocals",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Enigma",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "GTR Amp",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "GTR Stomp",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "GTR ToolRack",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "GTR Tuner",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "H-Comp",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "H-EQ",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "IDR",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "InPhase",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "IR-1",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "IR-360",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "IR-L",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "JJP-Bass",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "JJP-Cymb-Perc",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "JJP-Drums",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "JJP-Guitars",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "JJP-Strings",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "JJP-Vocals",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Kramer HLS",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Kramer PIE",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Kramer Tape",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Tape Simulator",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L1",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Limiter",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L2",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Limiter",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L3 Multi",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Multiband Limiter",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L3 Ultra",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Limiter",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L3-16 Filterbanks",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L3-16",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L3-LL Multi",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L3-LL Ultra",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "L360",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Limiter",
+   "quantity": null,
+   "images": "",
+   "description": "Surround Limiter"
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "LinEQ",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "LinMB",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Multiband Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "LoAir",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Maserati ACG",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Maserati B72",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Maserati DRM",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Maserati GRP",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Maserati GTi",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Maserati HMX",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Maserati VX1",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "MaxxBass",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "MaxxVolume",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "MetaFlanger",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "MondoMod",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Morphoder",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "MV2",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "MV360",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "One Knob Brighter",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "One Knob Driver",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "One Knob Filter",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "One Knob Louder",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "One Knob Phatter",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "One Knob Pressure",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "One Knob Wetter",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "PAZ",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "PS 22",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "PuigChild",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "PuigTec",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Q-Clone",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Q10",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "R360",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "RBass",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "RChannel",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Channel Strip",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "RComp",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "RDeEsser",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "DeEsser",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "RenAxx",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "REQ",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "RVerb",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "RVox",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "S1",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "S360",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "SoundShifter",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "SSL Channel",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Channel Strip",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "SSL Comp",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "SSL EQ",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "SuperTap",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Delay",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "TransX",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "TrueVerb",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Reverb",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "UltraPitch",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "UM",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "VComp",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Compressor",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "VEQ3",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "VEQ4",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "EQ",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Vocal Rider",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Volume Automation",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "W43",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Waves Tune",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "Pitch Correction",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "WLM",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "WNS",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "X-Click",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "X-Crackle",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "X-Hum",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "X-Noise",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Waves",
+   "model": "Z-Noise",
+   "typeware": "Software",
+   "type": "Plugin",
+   "subtype": "",
+   "quantity": null,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "ADAM",
+   "model": "A3x",
+   "typeware": "Monitor",
+   "type": "Speaker",
+   "subtype": "Surround",
+   "quantity": 5,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "ADAM",
+   "model": "Sub 12",
+   "typeware": "Monitor",
+   "type": "Speaker",
+   "subtype": "Subwoofer",
+   "quantity": 1,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Aviom",
+   "model": "A-16ii",
+   "typeware": "Monitor",
+   "type": "Headphone Mixer",
+   "subtype": "",
+   "quantity": 5,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Genelec ",
+   "model": "HT205",
+   "typeware": "Monitor",
+   "type": "Speaker",
+   "subtype": "Stereo",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Genelec ",
+   "model": "1031",
+   "typeware": "Monitor",
+   "type": "Speaker",
+   "subtype": "Stereo",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Event",
+   "model": "PS6",
+   "typeware": "Monitor",
+   "type": "Speaker",
+   "subtype": "Stereo",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Audio Technica",
+   "model": "ATH-D40fs",
+   "typeware": "Monitor",
+   "type": "Headphone",
+   "subtype": "",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Audio Technica",
+   "model": "ATH-M40fs",
+   "typeware": "Monitor",
+   "type": "Headphone",
+   "subtype": "",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ },
+ {
+   "manufacturer": "Sony",
+   "model": "MDR-7506",
+   "typeware": "Monitor",
+   "type": "Headphone",
+   "subtype": "",
+   "quantity": 2,
+   "images": "",
+   "description": ""
+ }
+]

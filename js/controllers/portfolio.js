@@ -16,7 +16,7 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
     };
 
     $scope.isSet = function(tabNum) {
-        console.log("Tab is" +tabNum);
+//        console.log("Tab is" +tabNum);
         return $scope.tab === tabNum;
     };
     $scope.subTab = 3;
@@ -38,7 +38,14 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
     
     var albumsRef = firebase.database().ref('/albums');
     var albumsInfo = $firebaseArray(albumsRef);
-    $scope.albums = albumsInfo;
+    albumsInfo.$loaded().then(function(albumsInfo) {
+        $scope.albums = albumsInfo;
+        console.log(albumsInfo.length + " is the number of albums");
+        var randomAlbum = Math.floor(Math.random() * albumsInfo.length);
+        console.log('random album choice is: ' + randomAlbum);
+        $scope.albumFocus = albumsInfo[0];    
+    });
+        
     
     function setAutoplayAudio() {
         audioplayer.attr('autoplay', 'autoplay');
@@ -56,8 +63,16 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         
         audioplayer.attr('src', link);  
     }
-    function getAlbumInfo(album) {
+    $scope.getAlbumInfo = function(album) {
         console.log('get album info engaged');
+        console.log(album.title);
+        $scope.albumFocus = album;
+    }
+
+    
+    $scope.filterTracksbyAlbum = function() {
+        console.log('filter tracks by album');
+        $scope.audioSearchKeyword = $scope.albumFocus.title;
     }
     
     audioInfo.$loaded().then(function(audioInfo) {

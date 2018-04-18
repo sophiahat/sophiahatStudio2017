@@ -1,0 +1,26 @@
+<section class="albums">
+    <div class="list-group">
+       <div ng-show="isSet(2)" id="album-focus">
+           <img src="/images/cd_images/{{albumFocus.image}}" alt="">
+       </div>
+        <div ng-show="isSet(2)" id="albums" class="album-list">
+               <div class="panel-body" ng-model="albums">
+                   <div class="">
+                       <div class="">
+                           <div class="audio" ng-repeat="album in albums 
+                           ">
+                               <a href ng-click="getAlbumInfo(album)">
+                                   <div class="album-item">
+                                       <div class="albumImg"><img ng-src="/images/cd_images/{{album.image}}" alt=""></div>
+                                       <div class="albumTitle"><span>{{album.title}}</span></div>
+                                   </div>
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+            <button ng-click="filterTracksbyAlbum()" class="btn btn-primary">Filter Tracks by Album Selection</button>
+                      
+    </div>
+</section>

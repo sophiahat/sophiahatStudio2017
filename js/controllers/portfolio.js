@@ -59,7 +59,7 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         $scope.displayAudio = audio;
         console.log('In audio stuff');
         
-        var link = "/audio/" + audio.src;
+        var link = "https://storage.googleapis.com/chrisspencercreative/audio/" + audio.src;
         
         audioplayer.attr('src', link);  
     }

@@ -319,6 +319,16 @@ footer {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+.portfolio .image-container {
+    display: inline-block;
+    background: white;
+}
+.portfolio .display-audio .audioTitle {
+    display: inline-block;
+}
+.portfolio img {
+    padding: 4px;
+}
 
 .portfolio .video a {
     text-decoration: none;
@@ -349,14 +359,14 @@ footer {
 }
 
 .audioImg img {
-    margin: 5px 0 5px 5px;
-    height: 40px;
+/*    margin: 5px 0 5px 5px;*/
+    height: auto;
     float: left;
 }
 .audioTitle {
     margin: 15px 0 0 10px;
     width: 35%;
-    float: left;
+/*    float: left;*/
 }
 .audioTitle span {
     vertical-align: middle;
@@ -366,26 +376,41 @@ footer {
     width: 45%;
     float: right;
     overflow-y: scroll;
-    height: 65px;
-    background: white;
+    height: 125px;
+    background:hsl(210, 10%, 93%);
     padding: 10px;
     border-radius: 3px;
 }
-
+.audio-list a,
+.album-list a {
+    text-decoration: none;
+}
 .audio-list {
 /*    margin: 10px 0 0 0;*/
 /*    border: solid 1px rgba(150, 150, 150, 0.9);*/
     border-radius: 4px;
     height: 250px;
     overflow-y: scroll;
-    background: white;
+    background:hsl(210, 10%, 93%);
 }
 .album-list {
     height: 400px;
     overflow-y: scroll;
+    clear: both;
+    margin-top: 180px;
+}
+.album-list audio{
+    width: 100%;
+}
+.album-item:hover {
+    background: rgba(245, 245, 245, 0.4);
+   
+}
+.albums .list-group .track-filter-button {
+    margin-top 10px;
 }
 .audio-list .audio {
-    clear: both;
+    
     overflow: auto;
 }
 .audio-item {
@@ -397,8 +422,16 @@ footer {
 #audio-player {
     margin: 15px 0 0 0;
     width: 100%;
-    clear:both;
-    
+    clear:both;   
+}
+.display-audio img{
+    width: 125px;
+    height: auto;
+}
+#album-focus img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 /*
 .audio-item div:nth-child(even) {

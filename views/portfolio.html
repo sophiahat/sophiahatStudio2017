@@ -15,7 +15,7 @@
                    
                </ul>
                <div ng-show="isSet(2)||isSet(5)" class="display-audio">
-                   <div class=""><img ng-src="/images/thumbs/{{displayAudio.img}}" alt=""></div>
+                   <div class="image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{displayAudio.img}}" alt=""></div>
                    <div class="audioTitle"><span>{{displayAudio.title}}</span></div>
 
                    <div class="audiodescription">{{displayAudio.description}}</div>
@@ -23,8 +23,8 @@
                    <audio  id="audio-player" src="" controls></audio> 
                </div>
             
-               <div ng-show="isSet(1)" class="videoWrapper">
-                    <iframe id="portfolio-video-player" src="https://www.youtube.com/embed/J_WQmwYVyIw?showinfo=0" frameborder="0" allowfullscreen></iframe>
+               <div ng-show="isSet(1)" class="videoWrapper embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" id="portfolio-video-player" src="https://www.youtube.com/embed/J_WQmwYVyIw?showinfo=0" frameborder="0" allowfullscreen></iframe>
                 </div>
                <div ng-show="isSet(1)" id="video" class="portfolio-scrolling-list" ng-model="videos">
                        <div class="panel-body">
@@ -55,9 +55,8 @@
                                             <div class="audio" ng-repeat="track in audio | filter: {showSophiahat:true, type:'client track'} | filter: audioSearchKeyword" ng-show="track.active">
                                                <a ng-click="getAudioSource(track)" href="">
                                                  <div class="audio-item">
-                                                     <div class="audioImg"><img ng-src="/images/thumbs/{{track.img}}" alt=""></div>
+                                                     <div class="audioImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{track.img}}" alt="{{track.title}} album image"></div>
                                                     <div class="audioTitle"><span>{{track.title}}</span></div> 
-                                                    <div class="audioAlbumImage"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{track.img}}" alt="{{track.title}} album image"></div>
                                                  </div>                                        
                                                </a>
                                            </div>   
@@ -74,7 +73,7 @@
                                             <div class="audio" ng-repeat="track in audio | filter: track.type='voiceover'" ng-show="track.active&&track.showCSCreative">
                                                <a ng-click="getAudioSource(track)" href="">
                                                  <div class="audio-item">
-                                                     <div class="audioImg"><img ng-src="/images/thumbs/{{track.img}}" alt=""></div>
+                                                     <div class="audioImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{track.img}}" alt=""></div>
                                                     <div class="audioTitle"><span>{{track.title}}</span></div> 
                                                  </div>                                        
                                                </a>

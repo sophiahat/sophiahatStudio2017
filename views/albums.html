@@ -1,17 +1,19 @@
 <section class="albums">
-    <div class="list-group">
-       <div ng-show="{isSet(2)&&subIsSet(3)}" id="album-focus">
-           <img src="/images/cd_images/{{albumFocus.image}}" alt="">
+    <div ng-show="isSet(2)" class="list-group">
+       <div ng-show="isSet(2)&&subIsSet(3)" id="album-focus">
+            <div class="image-container">
+                <img src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{albumFocus.image}}" alt="Album Focus Image">
+            </div>
        </div>
-        <div ng-show="isSet(2)" id="albums" class="album-list">
-               <div class="panel-body" ng-model="albums">
+        <div id="albums" class="album-list cf">
+               <div class="" ng-model="albums">
                    <div class="">
                        <div class="">
                            <div class="audio" ng-repeat="album in albums 
                            ">
                                <a href ng-click="getAlbumInfo(album)">
                                    <div class="album-item">
-                                       <div class="albumImg"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{album.image}}" alt=""></div>
+                                       <div class="albumImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{album.image}}" alt="Album Item Image"></div>
                                        <div class="albumTitle"><span>{{album.title}}</span></div>
                                    </div>
                                </a>
@@ -20,7 +22,9 @@
                    </div>
                </div>
            </div>
-            <button ng-click="filterTracksbyAlbum()" class="btn btn-primary">Filter Tracks by Album Selection</button>
+                <div class="track-filter-button">
+                    <button ng-click="filterTracksbyAlbum()" class="btn btn-primary">Filter Tracks by Album Selection</button>
+                </div>
                       
     </div>
 </section>

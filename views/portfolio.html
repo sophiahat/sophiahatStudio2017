@@ -1,8 +1,8 @@
 
-   <section class="card portfolio">
+   <section class="portfolio">
     
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-9 mainText">
             <header>
                 <div class="panel-header">
                     <h1>Portfolio</h1>
@@ -14,11 +14,17 @@
                    <li ng-class="{active: isSet(1)}"><a href ng-click="setTab(1)">Video</a></li>
                    
                </ul>
-               <div ng-show="isSet(2)||isSet(5)" class="display-audio">
+               <div ng-show="isSet(2)||isSet(5)" class="panel panel-default display-audio">
                    <div class="image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{displayAudio.img}}" alt=""></div>
                    <div class="audioTitle"><span>{{displayAudio.title}}</span></div>
 
-                   <div class="audiodescription">{{displayAudio.description}}</div>
+<!--
+                   <div class="audiodescription">
+                       
+                       <span> From the Album: {{displayAudio.albumTitle}}</span>
+                   
+                   </div>
+-->
 
                    <audio  id="audio-player" src="" controls></audio> 
                </div>
@@ -40,15 +46,18 @@
                           </div>
                        </div>
                    </div>
-               <div ng-show="isSet(2)" id="audio" class="">
+               <div ng-show="isSet(2)" id="audio" class="panel panel-default">
                    <ul class="nav nav-pills portfolio-tabs" id="data-categories">
                        <li ng-class="{active: subIsSet(3)}"><a href ng-click="setSubTab(3)">Music</a></li>
                        <li ng-class="{active: subIsSet(4)}" ><a href ng-click="setSubTab(4)">Voice-Over (VO)</a></li>
                    </ul>
                     <div class="" id="audio-panel">
-                       <input class="form-control" type="text" placeholder="Track Search" ng-model="audioSearchKeyword">
+                       <div class="track-search">
+                           <input class="form-control" type="search" placeholder="Track Search" ng-model="audioSearchKeyword">
+                           <a href="" ng-click="audioSearchKeyword = ''" class="clear"><span class="glyphicon glyphicon-remove"></span></a>
+                       </div>
                         <div class="">
-                           <div ng-show="subIsSet(3)" id="composition" class="portfolio-scrolling-list">
+                           <div ng-show="subIsSet(3)" id="client-tracks" class="portfolio-scrolling-list">
                                <div class="panel-body" ng-model="audio">                   
                                    <div class="audioplayer">
                                        <div class="audio-list">
@@ -56,7 +65,13 @@
                                                <a ng-click="getAudioSource(track)" href="">
                                                  <div class="audio-item">
                                                      <div class="audioImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{track.img}}" alt="{{track.title}} album image"></div>
-                                                    <div class="audioTitle"><span>{{track.title}}</span></div> 
+                                                    <div class="audio-text">
+                                                        <div class="audioTitle">
+                                                            <span>{{track.title}}</span></div> 
+                                                        <div class="audiodescription">
+                                                            <span>Album Title: {{track.albumTitle}}</span>  
+                                                        </div>
+                                                    </div>
                                                  </div>                                        
                                                </a>
                                            </div>   
@@ -91,7 +106,8 @@
         </div>
          <div class="col-md-3 text-center">
             <aside role="complementary">
-                <div ng-include="'views/albums.html'"></div>
+                <div ng-show="isSet(2)" ng-hide="subIsSet(4)" ng-include="'views/albums.html'"></div>
+                <div ng-show="isSet(1)||subIsSet(4)" ng-include="'views/sdbr-standard.html'"></div>
             </aside>
         </div>
     </div>

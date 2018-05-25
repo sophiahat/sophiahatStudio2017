@@ -20,7 +20,10 @@ main {
     float: right;
 }
 
-
+/*override the padding for the aside */
+.col-md-4 {
+    padding:0;
+}
 
 .branding {
   float: left;
@@ -103,14 +106,14 @@ input[type=radio] {
 }
 #carousel-main {
     margin: 0 auto 0;
-    max-height: 275px;
+/*    min-height: 200px;*/
+    max-height: 250px;
     max-width: 1100px;
     overflow: hidden;   
 }
 
 #carousel-main img {
     height: inherit;
-/*    min-height: 400px;*/
     width: 100%;     
 }
 
@@ -168,7 +171,7 @@ figcaption {
 	margin-bottom:30px;
 }
 section .row {
-    margin-left: 1px;
+/*    margin-left: 1px;*/
 }
 aside {
 	
@@ -553,6 +556,34 @@ footer {
         left: 0;
         top: 0;
         border: 0;
+    }
+    #carousel-main {
+        max-height: 225px;  
+    }
+}
+@media (max-width: 860px) {
+    #carousel-main {
+        max-height: 200px;  
+    }
+}
+@media (max-width: 750px) {
+    #carousel-main {
+        max-height: 175px;  
+    }
+}
+@media (max-width: 650px) {
+    #carousel-main {
+        max-height: 150px;  
+    }
+}
+@media (max-width: 560px) {
+    #carousel-main {
+        max-height: 125px;  
+    }
+}
+@media (max-width: 475px) {
+    #carousel-main {
+        max-height: 100px;  
     }
 }
 

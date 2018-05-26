@@ -67,11 +67,13 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         console.log('get album info engaged');
         console.log(album.title);
         $scope.albumFocus = album;
+        $scope.filterTracksbyAlbum();
+        
     }
 
     
     $scope.filterTracksbyAlbum = function() {
-        console.log('filter tracks by album');
+//        console.log('filter tracks by album');
         $scope.audioSearchKeyword = $scope.albumFocus.title;
     }
     

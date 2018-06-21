@@ -1,13 +1,27 @@
 body {
 	background-color:hsl(28, 10%, 90%);
 	padding-top:51px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
 }
 main {
-    margin: 15px;
+    margin: 15px auto;
+    max-width: 1100px;
+    
+}
+.panel {
+    background: #F8ECEA;
 }
 
 .nav, .pagination, .carousel, .panel-title a { 
     cursor: pointer; 
+}
+.touch-scroll {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .inline {
@@ -156,6 +170,7 @@ p::first-letter {
     height: 775px;
     overflow-y: scroll;
     
+    
 }
 figcaption {
 	font-size: 80%;
@@ -177,7 +192,8 @@ aside {
 	
 	padding:10px;
 	padding-bottom:60px;
-    background:hsl(210, 10%, 93%);
+/*    background:hsl(210, 10%, 93%);*/
+    background: rgb(240,240,240)
     height: 775px;
 }
 
@@ -333,6 +349,7 @@ footer {
 /*    margin-top: 15px;*/
     overflow: scroll;
     height: 300px; 
+    -webkit-overflow-scrolling: touch;
     
 }
 .preview-header-wrapper {
@@ -447,11 +464,13 @@ footer {
     border-radius: 4px;
     height: 250px;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     background:hsl(210, 10%, 93%);
 }
 .album-list {
     height: 400px;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     clear: both;
     margin: 10px 0;
     background:hsl(210, 10%, 93%);

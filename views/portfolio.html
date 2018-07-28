@@ -38,7 +38,9 @@
                               <div class="videos">
                                   <div class="video" ng-repeat="video in videos | orderBy: '-rating'" ng-show="video.active">
                                       <a href="" ng-click="getIframeSource(video)">
-                                          <img class="float-left" src="http://img.youtube.com/vi/{{video.videoId}}/0.jpg"  alt="videoID:{{video.$id}}">
+                                         <span class="image-container float-left">
+                                              <img src="http://img.youtube.com/vi/{{video.videoId}}/0.jpg"  alt="videoID:{{video.$id}}">
+                                         </span>
                                           <h5 class="float-left">{{video.title}}</h5>
                                       </a>
                                   </div>

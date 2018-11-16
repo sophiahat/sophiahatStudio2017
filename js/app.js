@@ -32,6 +32,7 @@ myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
         when('/about', {
             templateUrl: 'views/about.html',
+            controller: 'AboutController'
         }).
         when('/admin', {
             templateUrl: 'views/admin.html',
@@ -44,7 +45,8 @@ myApp.config(['$routeProvider', function($routeProvider) {
             }//resolve
         }).
         when('/booking', {
-            templateUrl: 'views/booking.html'
+            templateUrl: 'views/booking.html',
+            controller: 'BookingController'
         }).
         when('/clients', {
             templateUrl: 'views/clients.html',
@@ -61,13 +63,15 @@ myApp.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'views/error.html'     
         }).
         when('/gear', {
-            templateUrl: 'views/gear.html'
+            templateUrl: 'views/gear.html',
+            controller: 'GearController'
         }).
         when('/home', {
             templateUrl: 'views/home.html'
         }).
         when('/layout', {
-            templateUrl: 'views/layout.html'
+            templateUrl: 'views/layout.html',
+            controller: 'LayoutController'
         }).
         when('/login', {
             templateUrl: 'views/login.html',
@@ -85,14 +89,16 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'PortfolioController'
         }).
         when('/rates', {
-            templateUrl: 'views/rates.html'
+            templateUrl: 'views/rates.html',
+            controller: 'RatesController'
         }).
         when('/register', {
             templateUrl: 'views/register.html',
             controller: 'RegistrationController'
         }).
         when('/resources', {
-            templateUrl: 'views/resources.html'
+            templateUrl: 'views/resources.html',
+            controller: 'ResourcesController'
         }).
         when('/services', {
             templateUrl: 'views/services.html',

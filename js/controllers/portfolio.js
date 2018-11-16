@@ -1,13 +1,15 @@
 myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseArray', '$firebaseObject', '$sce', function($scope, $firebaseAuth, $firebaseArray, $firebaseObject, $sce) {
     
-    //update google analytics
-    var url = window.location.href;
-//    gtag('config', 'UA-20609405-2', {
-//        'page_path' : '/#/portfolio',
-//        'page_location' : url,
-//        'page_title' : 'Portfolio'
-//    
-//    });
+//    update google analytics
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+        var url = window.location.href;
+      gtag('config', 'UA-20609405-1', {
+            'page_title' : 'Portfolio',
+            'page_location' : url,
+            'page_path' : '/#/portfolio'
+      });
     
     // tab management
     $scope.tab = 2;

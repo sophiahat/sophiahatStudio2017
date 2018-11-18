@@ -77,9 +77,6 @@ myApp.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'views/login.html',
             controller: 'RegistrationController'
         }).
-        when('/music', {
-            templateUrl: 'views/music.html'
-        }).
         when('/news', {
             templateUrl: 'views/news.html',
             controller: 'NewsController'
@@ -103,9 +100,6 @@ myApp.config(['$routeProvider', function($routeProvider) {
         when('/services', {
             templateUrl: 'views/services.html',
             controller: 'ServicesController'
-        }).
-        when('/sound-design', {
-            templateUrl: 'views/sound-design.html'
         }).
         when('/studio-policy', {
             templateUrl: 'views/studio-policy.html'

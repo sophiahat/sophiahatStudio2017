@@ -114,6 +114,11 @@ myApp.config(['$routeProvider', function($routeProvider) {
             redirectTo: '/home'});  
 }]);
 
+myApp.config(['$locationProvider', function($locationProvider) {
+    $locationProvider.hashPrefix('!');
+    $locationProvider.html5Mode(false);
+}]);
+
 myApp.config(function($sceDelegateProvider) {
     $sceDelegateProvider.resourceUrlWhitelist([
         'self',

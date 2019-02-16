@@ -8,7 +8,7 @@ myApp.controller('ClientController', ['$scope', '$firebaseAuth', '$firebaseArray
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Clients',
             'page_location' : url,
-            'page_path' : '/#/clients'
+            'page_path' : '/#!/clients'
       });
     var clientsRef = firebase.database().ref('/clients');
     var clientsInfo = $firebaseArray(clientsRef);

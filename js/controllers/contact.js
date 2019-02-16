@@ -8,6 +8,6 @@ myApp.controller('ContactController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Contact',
             'page_location' : url,
-            'page_path' : '/#/contact'
+            'page_path' : '/#!/contact'
       });
 }]);//Controller

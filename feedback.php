@@ -60,9 +60,9 @@
 
 $mailto = 'info@sophiahatstudio.com' ;
 $subject = "sophiahat inquiry" ;
-$formurl = "http://sophiahatstudio.com/#/contact" ;
-$thankyouurl = "http://sophiahatstudio.com/#/thanks" ;
-$errorurl = "http://sophiahatstudio.com/#/error" ;
+$formurl = "http://sophiahatstudio.com/#!/contact" ;
+$thankyouurl = "http://sophiahatstudio.com/#!/thanks" ;
+$errorurl = "http://sophiahatstudio.com/#!/error" ;
 $want_tel_field = 0;
 $want_addr_field = 0;
 

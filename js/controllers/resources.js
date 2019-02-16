@@ -7,6 +7,6 @@ myApp.controller('ResourcesController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Resources',
             'page_location' : url,
-            'page_path' : '/#/resources'
+            'page_path' : '/#!/resources'
       });
 }]);//Controller

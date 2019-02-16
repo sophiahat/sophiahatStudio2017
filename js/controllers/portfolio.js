@@ -8,7 +8,7 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Portfolio',
             'page_location' : url,
-            'page_path' : '/#/portfolio'
+            'page_path' : '/#!/portfolio'
       });
     
     // tab management

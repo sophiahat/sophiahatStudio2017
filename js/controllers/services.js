@@ -7,6 +7,6 @@ myApp.controller('ServicesController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Services',
             'page_location' : url,
-            'page_path' : '/#/services'
+            'page_path' : '/#!/services'
       });
 }]);//Controller

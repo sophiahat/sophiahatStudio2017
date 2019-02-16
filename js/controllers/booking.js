@@ -7,6 +7,6 @@ myApp.controller('BookingController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Booking',
             'page_location' : url,
-            'page_path' : '/#/booking'
+            'page_path' : '/#!/booking'
       });
 }]);//Controller

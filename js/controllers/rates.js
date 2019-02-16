@@ -7,6 +7,6 @@ myApp.controller('RatesController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Rates',
             'page_location' : url,
-            'page_path' : '/#/rates'
+            'page_path' : '/#!/rates'
       });
 }]);//Controller

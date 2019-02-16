@@ -7,6 +7,6 @@ myApp.controller('NewsController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'News',
             'page_location' : url,
-            'page_path' : '/#/news'
+            'page_path' : '/#!/news'
       });
 }]);//Controller

@@ -7,6 +7,6 @@ myApp.controller('GearController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Gear',
             'page_location' : url,
-            'page_path' : '/#/gear'
+            'page_path' : '/#!/gear'
       });
 }]);//Controller

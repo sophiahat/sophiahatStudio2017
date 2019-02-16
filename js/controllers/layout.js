@@ -7,6 +7,6 @@ myApp.controller('LayoutController', ['$scope', function($scope) {
       gtag('config', 'UA-20609405-1', {
             'page_title' : 'Layout',
             'page_location' : url,
-            'page_path' : '/#/layout'
+            'page_path' : '/#!/layout'
       });
 }]);//Controller

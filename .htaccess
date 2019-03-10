@@ -1,39 +1,32 @@
-RewriteEngine on
-
-AddType application/x-httpd-ea-php54 .php .php5 .phtml
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-SSL} !on
-RewriteCond %{HTTP_HOST} ^sophiahatstudio\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.sophiahatstudio\.com$
-RewriteRule ^(.*)$ "https\:\/\/sophiahat\.com\/$1" [R=301,L]
-
 Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload" "expr=%{HTTPS} == 'on'"
 
-AddType video/mp4 .mp4 .m4v
-AddType video/ogg .ogg .ogv
-AddType video/webm .webm
+  RewriteEngine On
+    # If requested resource exists as a file or directory
+      # (REQUEST_FILENAME is only relative in virtualhost context, so not usable)
+        RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+        RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+      # Only exception is /index.htm, /index.html
+        RewriteCond %{REQUEST_URI} !/index\.html?
+      # Go to it as is
+        RewriteRule ^ - [L]
+    # If non existent
+      # If path ends with / and is not just a single /, redirect to without the trailing /
+        RewriteCond %{REQUEST_URI} ^.*/$
+        RewriteCond %{REQUEST_URI} !^/$
+        RewriteRule ^(.*)/$ $1 [R,QSA,L]
+      # If path that is not empty or / or /index.htm or /index.html, redirect to /#!/path
+        RewriteCond %{REQUEST_URI} !(/index\.html?|/|)$
+        RewriteRule ^(.*)$ /#!$1 [R,QSA,NE,L]
+      # If not /, redirect to it.
+        RewriteCond %{REQUEST_URI} !^/$
+        RewriteRule ^ / [R,QSA,L]
 
-AddType application/x-httpd-ea-php54 .php .php5 .phtml
+  # Handle Prerender.io
+    RequestHeader set X-Prerender-Token "JVzn7VcfcG4YRodQHpfm"
 
+    RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
+    RewriteCond %{QUERY_STRING} _escaped_fragment_
+    RewriteCond %{QUERY_STRING} _escaped_fragment_=([^&]*)
 
-
-# Change YOUR_TOKEN to your prerender token and uncomment that line if you want to cache urls and view crawl stats
-# Change http://example.com (at the end of the last RewriteRule) to your website url
-
-<IfModule mod_headers.c>
-    #RequestHeader set X-Prerender-Token "JVzn7VcfcG4YRodQHpfm"
-</IfModule>
-
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-
-    <IfModule mod_proxy_http.c>
-        RewriteCond %{HTTP_USER_AGENT} googlebot|bingbot|yandex|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator [NC,OR]
-        RewriteCond %{QUERY_STRING} _escaped_fragment_
-        
-        # Only proxy the request to Prerender if it's a request for HTML
-        RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent|\.ttf|\.woff))(.*) http://service.prerender.io/http://sophiahatstudio.com/$2 [P,L]
-    </IfModule>
-</IfModule>
-
-
+  # Proxy the request
+    RewriteRule ^ http://service.prerender.io/http://%{HTTP_HOST}/?_escaped_fragment_=%1 [P,L]

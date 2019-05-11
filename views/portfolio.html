@@ -2,7 +2,7 @@
    <section class="portfolio">
     
     <div class="row">
-        <div class="col-md-8 maintext">
+        <div class="col-md-10 maintext">
             <header>
                 <div class="panel-header">
                     <h1>Portfolio</h1>
@@ -52,11 +52,13 @@
                    <ul class="nav nav-pills portfolio-tabs" id="data-categories">
                        <li ng-class="{active: subIsSet(3)}"><a href ng-click="setSubTab(3)">Music</a></li>
                        <li ng-class="{active: subIsSet(4)}" ><a href ng-click="setSubTab(4)">Voice-Over (VO)</a></li>
-                       <li id="albumfilterclear"><a href ng-click="audioSearchKeyword = ''" class="clear">Clear Album Filter</a></li>
+                       <li ng-class="{active: isSearchActive()}" id="albumfilterclear"><a href  ng-click="audioSearchKeyword = ''" class="clear">Clear Track Search</a></li>
+                       <li id="shuffle-audio"><a href ng-click="shuffleAudio()">Shuffle Audio</a></li>
+                       <li ng-class="{active: isAlbumActive()}"><a ng-click="toggleAlbumFilter()" href ng-hide="subIsSet(4)" >Album Filter</a></li>
                    </ul>
                     <div class="" id="audio-panel">
                        <div class="track-search">
-                           <input class="form-control" type="search" placeholder="Track Search" ng-model="audioSearchKeyword">
+                           <input ng-change="searchActive = true" class="form-control" type="search" placeholder="Track Search" ng-model="audioSearchKeyword">
                            <a href="" ng-click="audioSearchKeyword = ''" class="clear"><span class="glyphicon glyphicon-remove"></span></a>
                        </div>
                         <div class="">
@@ -71,9 +73,11 @@
                                                     <div class="audio-text">
                                                         <div class="audioTitle">
                                                             <span>{{track.title}}</span></div> 
+<!--
                                                         <div class="audiodescription">
                                                             <span>Album Title: {{track.albumTitle}}</span>  
                                                         </div>
+-->
                                                     </div>
                                                  </div>                                        
                                                </a>
@@ -88,7 +92,7 @@
                                <div class="panel-body" ng-model="audio">
                                    <div class="audioplayer">
                                        <div class="audio-list">
-                                            <div class="audio" ng-repeat="track in audio | filter: track.type='voiceover'" ng-show="track.active&&track.showCSCreative">
+                                            <div class="audio" ng-repeat="track in audio | filter: track.type='voiceover' | filter: audioSearchKeyword " ng-show="track.active&&track.showCSCreative">
                                                <a ng-click="getAudioSource(track)" href="">
                                                  <div class="audio-item">
                                                      <div class="audioImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{track.img}}" alt=""></div>
@@ -107,10 +111,11 @@
                
                
         </div>
-         <div class="col-md-4 text-center">
+         <div class="col-md-2 text-center">
             <aside role="complementary">
-                <div ng-show="isSet(2)" ng-hide="subIsSet(4)" ng-include="'views/albums.html'"></div>
-                <div ng-show="isSet(1)||subIsSet(4)" ng-include="'views/sdbr-standard.html'"></div>
+<!--                <div ng-show="isSet(2)" ng-hide="subIsSet(4)" ng-include="'views/albums.html'"></div>-->
+                <div ng-show="showAlbumFilter" ng-include="'views/albums.html'"></div>
+<!--                <div ng-show="isSet(1)||subIsSet(4)" ng-include="'views/sdbr-standard.html'"></div>-->
             </aside>
         </div>
     </div>

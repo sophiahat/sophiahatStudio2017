@@ -1,8 +1,5 @@
 var myApp = angular.module('myApp', ['ngRoute', 'firebase', 'ngSanitize', 'ui.bootstrap']);
 
-
-
-
 myApp.config(function() {
   // Initialize Firebase
   var config = {

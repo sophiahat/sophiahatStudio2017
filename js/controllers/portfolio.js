@@ -33,6 +33,7 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
     var videosInfo = $firebaseArray(videosRef);
     $scope.videos = videosInfo;
     
+
     var audioRef = firebase.database().ref('/audio');
     var audioInfo = $firebaseArray(audioRef);
     $scope.audio = audioInfo;
@@ -47,6 +48,25 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         console.log('random album choice is: ' + randomAlbum);
         $scope.albumFocus = albumsInfo[0];    
     });
+    
+    //    shuffle array function 
+    function shuffleArray(array) {
+        console.log('shuffling Audio');
+        var m = array.length;
+        var i, t;
+//        while items remain to shuffle
+        console.log('M at onset:' + m);
+        while (m) {
+            //Pick a remaining element
+            i = Math.floor(Math.random() * m--);
+            console.log('M is now:' + m);
+            //swap it with the current element
+            t = array[m];
+            array[m] = array[i];
+            array[i] = t;
+        }
+        return array;
+    }
         
     
     function setAutoplayAudio() {
@@ -72,8 +92,35 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         $scope.filterTracksbyAlbum();
         
     }
-
-    
+    $scope.albumFilterActive = false;
+    $scope.isAlbumActive = function() {
+        return $scope.albumFilterActive;
+    }
+    $scope.showAlbumFilter = false;
+    $scope.toggleAlbumFilter = function() {
+        if ($scope.showAlbumFilter) {
+            $scope.showAlbumFilter = false;
+            $scope.albumFilterActive = false;
+            return false;
+             }
+        else {
+            $scope.showAlbumFilter = true;
+            $scope.albumFilterActive = true;
+            return true;
+            }
+        $scope.showAlbumFilter = ($scope.showAlbumFilter) ? false : true;
+    }
+    $scope.shuffleAudio = function() {
+        shuffleArray(audioInfo);
+    };
+    $scope.searchActive = false;
+    $scope.isSearchActive = function() {
+        var active = ($scope.audioSearchKeyword) ? true : false;
+        $scope.searchActive = active;
+        console.log('active Search: ' + active);
+        return active;
+        
+    }
     $scope.filterTracksbyAlbum = function() {
 //        console.log('filter tracks by album');
         $scope.audioSearchKeyword = $scope.albumFocus.title;
@@ -82,6 +129,7 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
     audioInfo.$loaded().then(function(audioInfo) {
         console.log('load complete');
         console.log("length of audio array: " + audioInfo.length);
+        shuffleArray(audioInfo);
         var audioArrayLength = audioInfo.length;
         var trackNumber = Math.floor(Math.random() * (audioArrayLength));
         console.log("Random choice is: " + trackNumber);

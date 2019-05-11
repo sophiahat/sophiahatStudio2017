@@ -197,9 +197,12 @@ aside {
     height: 775px;
 }
 
-.portfolio aside {
-/*    background: white;*/
+.portfolio .col-md-2 {
+    margin-top: -18px;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.8);
 }
+
 #cd-focus {
 	background:hsl(210, 10%, 93%);
 }
@@ -309,16 +312,16 @@ footer {
     margin-top: -30px;
 /*    padding-top: 5px;*/
     width: 100%;
-    background:hsl(210, 10%, 93%);
+    color: white;
     text-align: center;
 }
 .portfolio #album-focus h3 {
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .portfolio img {
-    width: 65px;
-    height: 65px;
+    width: 150px;
+    height: 150px;
     padding: 4px;
 }
 .admin .admin-scrolling-list img,
@@ -373,7 +376,7 @@ footer {
     border-radius: 3px;
 }
 .portfolio .audioImg {
-    float: left;
+/*    float: left;*/
 }
 .portfolio .track-search input {
     width: 95%;
@@ -388,11 +391,7 @@ footer {
 .portfolio .audio-item {
     display: inline;
 }
-.portfolio .audio-item .audioTitle {
-    margin-left: 25px;
-    display: inline-block;
-    vertical-align: middle;
-}
+
 
 
 .portfolio .video a {
@@ -429,9 +428,7 @@ footer {
 /*    float: left;*/
 }
 .audioTitle {
-    margin: 15px 0 0 10px;
-    width: 35%;
-/*    float: left;*/
+    text-align: center;
 }
 .audio-text     {
     vertical-align: middle;
@@ -469,12 +466,12 @@ footer {
     background:hsl(210, 10%, 93%);
 }
 .album-list {
-    height: 400px;
+    height: 650px;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     clear: both;
     margin: 10px 0;
-    background:hsl(210, 10%, 93%);
+/*    background:hsl(210, 10%, 93%);*/
     padding: 3px;
     border-radius: 4px;
 }
@@ -488,16 +485,21 @@ footer {
     background: rgba(245, 245, 245, 0.4); 
 }
 .album-item {
-    text-align: left;
+    text-align: center;
     display: block;
     margin: 2px 0;
     
 }
+.albumTitle {
+    color: white;
+}
 .album-item .albumImg,
 .album-item .albumTitle {
     display: inline-block;
-    
-
+}
+.album-item img {
+    width: 100px;
+    height: 100px;
 }
 .albums .list-group .track-filter-button {
     margin-top 10px;
@@ -505,6 +507,9 @@ footer {
 .audio-list .audio {
     margin: 5px 0 5px 3px;
     overflow: auto;
+    width: 150px;
+    height: 200px;
+    display: inline-flex;
 }
 .audio-item {
     overflow:auto
@@ -558,6 +563,11 @@ footer {
 }
 
 @media (max-width: 992px) {
+    .portfolio .col-md-2 {
+        height: 250px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+    }
     .maintext,
     aside {
         height: auto;

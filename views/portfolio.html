@@ -32,22 +32,7 @@
                <div ng-show="isSet(1)" class="videoWrapper embed-responsive-4by3">
                     <iframe class="embed-responsive-item" id="portfolio-video-player" src="https://www.youtube.com/embed/J_WQmwYVyIw?showinfo=0" frameborder="0" allowfullscreen></iframe>
                 </div>
-               <div ng-show="isSet(1)" id="video" class="portfolio-scrolling-list" ng-model="videos">
-                       <div class="panel-body">
-                          <div class="row">
-                              <div class="videos">
-                                  <div class="video" ng-repeat="video in videos | orderBy: '-rating'" ng-show="video.active">
-                                      <a href="" ng-click="getIframeSource(video)">
-                                         <span class="image-container float-left">
-                                              <img src="http://img.youtube.com/vi/{{video.videoId}}/0.jpg"  alt="videoID:{{video.$id}}">
-                                         </span>
-                                          <h5 class="float-left">{{video.title}}</h5>
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                       </div>
-                   </div>
+               
                <div ng-show="isSet(2)" id="audio" class="panel panel-default">
                    <ul class="nav nav-pills portfolio-tabs" id="data-categories">
                        <li ng-class="{active: subIsSet(3)}"><a href ng-click="setSubTab(3)">Music</a></li>
@@ -114,7 +99,23 @@
          <div class="col-md-2 text-center">
             <aside role="complementary">
 <!--                <div ng-show="isSet(2)" ng-hide="subIsSet(4)" ng-include="'views/albums.html'"></div>-->
-                <div ng-show="showAlbumFilter" ng-include="'views/albums.html'"></div>
+                <div ng-show="showAlbumFilter&&isSet(2)" ng-include="'views/albums.html'"></div>
+                <div ng-show="isSet(1)" id="video" class="portfolio-scrolling-list" ng-model="videos">
+                       <div class="panel-body">
+                          <div class="row">
+                              <div class="videos">
+                                  <div class="video" ng-repeat="video in videos | orderBy: '-rating'" ng-show="video.active">
+                                      <a href="" ng-click="getIframeSource(video)">
+                                         <span class="image-container float-left">
+                                              <img src="http://img.youtube.com/vi/{{video.videoId}}/0.jpg"  alt="videoID:{{video.$id}}">
+                                         </span>
+                                          <h5 class="float-left">{{video.title}}</h5>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                       </div>
+                   </div>
 <!--                <div ng-show="isSet(1)||subIsSet(4)" ng-include="'views/sdbr-standard.html'"></div>-->
             </aside>
         </div>

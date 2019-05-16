@@ -167,10 +167,10 @@ p::first-letter {
 	background-repeat:repeat;
 	padding:10px;
 	padding-bottom:60px;
-    height: 775px;
-/*    overflow-y: scroll;*/
-    
-    
+    height: 775px;  
+}
+.portfolio .maintext {
+    background: none;
 }
 figcaption {
 	font-size: 80%;
@@ -198,7 +198,7 @@ aside {
 }
 
 .portfolio .col-md-2 {
-    margin-top: -18px;
+    margin: -18px -90px 0 0;
     height: 800px;
     background: rgba(0, 0, 0, 0.8);
 }
@@ -326,7 +326,7 @@ footer {
 }
 .admin .admin-scrolling-list img,
 .portfolio .video img {
-    max-height: 40px;
+/*    max-height: 40px;*/
 /*    float: left;*/
 
 }
@@ -351,7 +351,7 @@ footer {
 .portfolio .portfolio-scrolling-list {
 /*    margin-top: 15px;*/
     overflow: scroll;
-    height: 300px; 
+    height: 700px; 
     -webkit-overflow-scrolling: touch;
     
 }
@@ -361,7 +361,7 @@ footer {
 
 .portfolio .video {
     text-align: center;
-    width: 96%;
+    width: 100px;
     float: left;
     height: auto;
     padding: 5px;
@@ -369,6 +369,12 @@ footer {
     margin-top: 0px;
 /*    border: 1px solid #ddd;*/
     border-radius: 5px;
+    
+}
+
+.portfolio .video img {
+    width: 100px;
+    height: 75px;
 }
 .portfolio .image-container {
     display: inline-block;
@@ -406,8 +412,9 @@ footer {
     border-radius: 5px;
 }
 .portfolio .video h5 {
+    color: white;
     height: 45px;
-    padding: 2px 5px 0 5px;
+/*    padding: 2px 5px 0 5px;*/
     text-align: center;
 }
 .displayAudio {

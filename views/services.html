@@ -8,44 +8,40 @@
                 <h2>Overview</h2>
 <p>At Sophiahat, we are involved in just about all aspects of audio production for new media. We record bands, develop singer/songwriter projects, produce audio books, create music for film, the web and TV/Radio, score and create effects for video games, and just about anything else you can imagine involving the production of sound. If you have a project that doesn’t fall into any of the categories below, don’t write us off. Instead, shoot us an email and let us convince you that we are a great fit for your needs.</p>
             </section>
-            <div id="tabContainer">
-                <div id="tabs">
-                    <ul class="nav nav-tabs">
-                        <li role="presentation" id="MusicTab"><a href="#MusicPanel">Music</a></li>
-                        <li role="presentation" id="VideoPostTab"><a href="#VideoPostPanel">Video Post</a></li>
-                        <li role="presentation" id="GameAudioTab"><a href="#GameAudioPanel">Game Audio</a></li>
-                        <li role="presentation" id="NewMediaTab"><a href="#NewMediaPanel">New Media</a></li>
-                        <li role="presentation" id="RadioTV"><a href="#RadioTVPanel">Radio&#47;TV</a></li>
-                    </ul>
-                </div>
-                <div id="panels">
-                        <div class="tab-section">
-                            <section>
-                                <h3 id="MusicPanel">Music</h3>
-                                <div class="scroll-box touch-scroll">
-                                    <dl>
-                                        <dt>Tracking</dt>
-                                        <dd>Isolated mulltitrack recording and live to multitrack is our specialty. Check out our <a href="layout.html" title="link to Studio Layout">recording space</a>.</dd>
-                                        <dt>Editing</dt> 
-                                        <dd>Chris, a certified <a href="http://www.avid.com/US/support/training/find-professional" title="link to Pro Tools certified operators">Pro Tools Operator</a> can get your project polished to your liking quickly. </dd>
-                                        <dt>Mixing</dt>
-                                        <dd>We accept projects in Pro Tools and Logic, and can transfer work from other platforms as well.</dd>
-                                        <dt>Mastering</dt>
-                                        <dd>Although we are not a mastering facility, we do perform similar services for those on a limited budget.</dd> 
-                                        <dt>Music Production</dt>
-                                        <dd>In the role of producer, we are focused and capable of providing the right blend of enthusiasm, constructive criticism and encouragement to coax the very best performance, arrangement and mix out or your project. Special rates apply, please inquire.</dd>
-                                        <dt>Music Arranging and Preparation</dt>
-                                        <dd>Chris' experience as a staff arranger in the Air Force band makes him well versed in music notation software. He can crank out charts for your musicians in short order and at a reasonable rate.</dd>
-                                        <dt>Session Musicians</dt>
-                                        <dd>We have access to a large pool of very talented local musicians.</dd>
-                                    </dl>
-                                </div>
-                            </section>
-                        </div>
-                    <div class="tab-section">
-                        <section>
-                            <h3 id="VideoPostPanel">Video Post</h3>
-                            <div class="scroll-box touch-scroll">
+
+            <div class="panel-group accordion" id="accordion">    
+                   <div class="panel panel-default">
+                       <div class="panel-heading">
+                           <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" data-target="#music-service"  >Music</h4>
+                       </div>
+                       <div id="music-service" class="panel-collapse collapse">
+                           <div class="panel-body">
+                                
+                                <dl>
+                                    <dt>Tracking</dt>
+                                    <dd>Isolated mulltitrack recording and live to multitrack is our specialty. Check out our <a href="layout.html" title="link to Studio Layout">recording space</a>.</dd>
+                                    <dt>Editing</dt> 
+                                    <dd>Chris, a certified <a href="http://www.avid.com/US/support/training/find-professional" title="link to Pro Tools certified operators">Pro Tools Operator</a> can get your project polished to your liking quickly. </dd>
+                                    <dt>Mixing</dt>
+                                    <dd>We accept projects in Pro Tools and Logic, and can transfer work from other platforms as well.</dd>
+                                    <dt>Mastering</dt>
+                                    <dd>Although we are not a mastering facility, we do perform similar services for those on a limited budget.</dd> 
+                                    <dt>Music Production</dt>
+                                    <dd>In the role of producer, we are focused and capable of providing the right blend of enthusiasm, constructive criticism and encouragement to coax the very best performance, arrangement and mix out or your project. Special rates apply, please inquire.</dd>
+                                    <dt>Music Arranging and Preparation</dt>
+                                    <dd>Chris' experience as a staff arranger in the Air Force band makes him well versed in music notation software. He can crank out charts for your musicians in short order and at a reasonable rate.</dd>
+                                    <dt>Session Musicians</dt>
+                                    <dd>We have access to a large pool of very talented local musicians.</dd>
+                                </dl>
+                           </div>
+                       </div>
+                   </div> 
+                   <div class="panel panel-default">
+                       <div class="panel-heading">
+                           <h4 class="panel-title " data-toggle="collapse" data-target="#video-post" data-parent="#accordion" >Video Post</h4>
+                       </div>
+                       <div id="video-post" class="panel-collapse collapse">
+                           <div class="panel-body">
                                 <dl>
                                     <dt>Production Dialogue Editing</dt>
                                     <dd>We can polish your production sound, work with sync issues, assess the overall quality, and make the transition to ADR painless.</dd>
@@ -55,14 +51,16 @@
                                     <dd>Our foley production coupled with our large library of effects allows us to deliver unique sounds that add the perfect accent to your story line. </dd>
                                     <dt>Music Composition</dt>
                                     <dd>Orchestral and mixed element score along with authentic source music.</dd>
-                                </dl>	
-                            </div>
-                        </section>
-                    </div>
-                    <div class="tab-section">
-                        <section>
-                            <h3 id="GameAudioPanel">Game Audio</h3>
-                            <div class="scroll-box touch-scroll">
+                                </dl>    
+                           </div>
+                       </div>
+                   </div>              
+                   <div class="panel panel-default">
+                       <div class="panel-heading">
+                           <h4 class="panel-title " data-toggle="collapse" data-target="#game-audio" data-parent="#accordion" >Game Audio</h4>
+                       </div>
+                       <div id="game-audio" class="panel-collapse collapse">
+                           <div class="panel-body">
                                 <p>With our experience in FMOD, Wwise, and Unreal Editor we can deliver all the audio for your game title. We can also work with your developers during implementation to ensure audio quality in the final product. </p>
                                 <dl>
                                     <dt>Dialogue</dt>
@@ -72,13 +70,15 @@
                                     <dt>Music Composition</dt>
                                     <dd>We can provide that epic score for your title.</dd>
                                 </dl>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="tab-section">
-                        <section>
-                            <h3 id="NewMediaPanel">New Media</h3>
-                            <div class="scroll-box touch-scroll">
+                           </div>
+                       </div>
+                   </div>
+                    <div class="panel panel-default">
+                       <div class="panel-heading">
+                           <h4 class="panel-title " data-toggle="collapse" data-target="#new-media" data-parent="#accordion" >New Media</h4>
+                       </div>
+                       <div id="new-media" class="panel-collapse in collapse">
+                           <div class="panel-body">
                                 <dl>
                                     <dt>On Hold Messaging</dt>
                                     <dd>We can deliver time sensitive messages for your customers. Take advantage of this extremely effective marketing tool by sending your latest offerings directly to your clients.</dd> 
@@ -89,13 +89,15 @@
                                     <dt>Audio Books</dt>
                                     <dd>Record and edit dialogue, add music and effects, mix and master your audio book project with us.</dd>
                                 </dl>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="tab-section">
-                        <section>
-                            <h3 id="RadioTVPanel">Radio&#47;TV</h3>
-                            <div class="scroll-box touch-scroll">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="panel panel-default">
+                       <div class="panel-heading">
+                           <h4 class="panel-title " data-toggle="collapse" data-target="#radio-tv" data-parent="#accordion" >Radio&#47;TV</h4>
+                       </div>
+                       <div id="radio-tv" class="panel-collapse in collapse">
+                           <div class="panel-body">
                                 <dl>
                                     <dt>Radio Spots</dt>
                                     <dd>No matter what sort of tone your after, whether it&#39;s shock and awe, rolling on the floor, or reaching for the kleenex, we can deliver the right sounds, dialogue and music to get your point across. </dd>
@@ -106,11 +108,10 @@
                                     <dt>Radio Drama</dt>
                                     <dd>Full production of all audio components in the radio show format; live actor recording, editing, overdubs, efx, and music.</dd>
                                 </dl>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
 
         </div>
 

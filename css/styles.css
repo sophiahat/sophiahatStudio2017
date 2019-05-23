@@ -248,16 +248,39 @@ a {
 #video-player {
 	width:300px;
 }
-.clients img {
-	width:100px;
-	height:100px;
+.clients .maintext .client-image {
+    position: relative;
+	width:150px;
+	height:130px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
-.clients td {
-	background:hsl(210, 10%, 93%);
-    vertical-align: middle!important;
+.clients .maintext .client-image img {
+    margin: 5px auto inherit auto;
+    max-width: 120px;
+    max-height: 110px;
+    border-radius: 3px;
 }
-.clients td a {
-    display: block;
+.clients .maintext .client-url {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients .maintext ul li {
+    margin: 3px;
+    background: black;
+    display: inline-block;
+    width: 155px;
+    height: 195px;
+    border: solid 1px black;
+    border-radius: 4px;
+    text-align: center;
 }
 #booking-form iframe{
 	width:600px;

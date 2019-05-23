@@ -1,11 +1,11 @@
-<section>
+<section class="clients">
 <div class = "row">
     <div class = "col-md-8 maintext">
         <header role="heading">
             <h1>Clients</h1>
             </header>
         <div class= "row">
-            <div class = "col-md-6">
+            <div class = "col-md-12">
             <section>
                 <h2>Musicians/Bands</h2>
                 <p>
@@ -13,17 +13,27 @@
              </p>
                 <div class="touch-scroll">
                             
+<!--
                     <table id="music-clients" class="table-responsive table table-bordered table-hover">
                         <tr class="clients" ng-repeat="client in clients | filter: client.type='musician'" ng-show="client.showSophiahat&&client.active">
                             <td><a ng-href="{{client.url}}" target="_blank"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/client_images/{{client.image}}" alt="client image"></a></td>
                             <td><a ng-href="{{client.url}}" target="_blank">{{client.name}}</a></td>
                         </tr>                       
                     </table>
+-->
+                    <ul id="music-clients">
+                        <li ng-repeat="client in clients | filter: client.type='musician'" ng-show="client.showSophiahat&&client.active">
+                            <div class="client-image">
+                                <a ng-href="{{client.url}}" target="_blank"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/client_images/{{client.image}}" alt="client image"></a>
+                            </div>
+                            <div class="client-url"><a ng-href="{{client.url}}" target="_blank">{{client.name}}</a></div>
+                        </li>
+                    </ul>
                             
                 </div>
             </section>
         </div>
-        <div class = "col-md-6">
+        <div class = "col-md-12">
             <section>
                 <h2>Corporate</h2>
                 <p>
@@ -31,15 +41,16 @@
              </p>
                 <div class="touch-scroll">
                         
-                    <table id="corporate-clients" class="table table-responsive table-bordered table-hover clients">
-                        <tr class="clients" ng-repeat="client in clients | filter: client.type='corporate'" ng-show="client.showSophiahat&&client.active">
-                            <td><a ng-href="{{client.url}} "target="_blank"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/client_images/{{client.image}}" alt="client image"></a></td>
-                            <td><a ng-href="{{client.url}}" target="_blank">{{client.name}}</a></td>
-                        </tr>
-                    </table>
+                    <ul id="corporate-clients">
+                        <li ng-repeat="client in clients | filter: client.type='corporate'" ng-show="client.showSophiahat&&client.active">
+                            <div class="client-image">
+                                <a ng-href="{{client.url}}" target="_blank"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/client_images/{{client.image}}" alt="client image"></a>
+                            </div>
+                            <div class="client-url"><a ng-href="{{client.url}}" target="_blank">{{client.name}}</a></div>
+                        </li>
+                    </ul>
                         
                 </div>
-                <div class="clients" id="corporate-clients"></div>
             </section>
         </div>
         </div>

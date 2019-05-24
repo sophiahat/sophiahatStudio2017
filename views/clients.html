@@ -7,21 +7,15 @@
         <div class= "row">
             <div class = "col-md-12">
             <section>
-                <h2>Musicians/Bands</h2>
-                <p>
-                Here&#39;s a list of musical projects that we have been involved with over the years.  You&#39;ll find links to their work as well.  
-             </p>
-                <div class="touch-scroll">
-                            
-<!--
-                    <table id="music-clients" class="table-responsive table table-bordered table-hover">
-                        <tr class="clients" ng-repeat="client in clients | filter: client.type='musician'" ng-show="client.showSophiahat&&client.active">
-                            <td><a ng-href="{{client.url}}" target="_blank"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/client_images/{{client.image}}" alt="client image"></a></td>
-                            <td><a ng-href="{{client.url}}" target="_blank">{{client.name}}</a></td>
-                        </tr>                       
-                    </table>
--->
-                    <ul id="music-clients">
+               <div class="panel-group accordion" id="accordion">
+                   <div class="panel panel-default">
+                       <div class="panel-heading"><h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" data-target="#music-clients">Musicians/Bands</h4></div>
+                   </div>
+                   <div id="music-clients" class="panel-collapse collapse touch-scroll">
+                    <p>
+                        Here&#39;s a list of musical projects that we have been involved with over the years.  You&#39;ll find links to their work as well.  
+                     </p>
+                    <ul>
                         <li ng-repeat="client in clients | filter: client.type='musician'" ng-show="client.showSophiahat&&client.active">
                             <div class="client-image">
                                 <a ng-href="{{client.url}}" target="_blank"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/client_images/{{client.image}}" alt="client image"></a>
@@ -30,27 +24,24 @@
                         </li>
                     </ul>
                             
-                </div>
-            </section>
-        </div>
-        <div class = "col-md-12">
-            <section>
-                <h2>Corporate</h2>
-                <p>
-                Sophiahat is also dedicated to providing quality audio for corporate clients as well.  Check out our <a href="services.html" title="link to services page">Services</a> to see what types of services we offer. 
-             </p>
-                <div class="touch-scroll">
-                        
-                    <ul id="corporate-clients">
+                    </div>
+                    <div class="panel panel-default">
+                       <div class="panel-heading"><h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" data-target="#corporate-clients">Corporate</h4></div>
+                   </div>
+                   <div id="corporate-clients" class="panel-collapse collapse touch-scroll">
+                        <p>
+                            Sophiahat is also dedicated to providing quality audio for corporate clients as well.  Check out our <a href="services.html" title="link to services page">Services</a> to see what types of services we offer. 
+                        </p>
+                        <ul id="corporate-clients">
                         <li ng-repeat="client in clients | filter: client.type='corporate'" ng-show="client.showSophiahat&&client.active">
                             <div class="client-image">
                                 <a ng-href="{{client.url}}" target="_blank"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/client_images/{{client.image}}" alt="client image"></a>
                             </div>
                             <div class="client-url"><a ng-href="{{client.url}}" target="_blank">{{client.name}}</a></div>
                         </li>
-                    </ul>
-                        
-                </div>
+                    </ul>    
+                    </div>
+               </div>
             </section>
         </div>
         </div>

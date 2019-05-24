@@ -248,6 +248,10 @@ a {
 #video-player {
 	width:300px;
 }
+.clients .maintext {
+    overflow-x: scroll;
+    height: 650px;
+}
 .clients .maintext .client-image {
     position: relative;
 	width:150px;

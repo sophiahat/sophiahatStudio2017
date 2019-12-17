@@ -94,11 +94,11 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         $scope.filterTracksbyAlbum();
         
     }
-    $scope.albumFilterActive = false;
+    $scope.albumFilterActive = true;
     $scope.isAlbumActive = function() {
         return $scope.albumFilterActive;
     }
-    $scope.showAlbumFilter = false;
+    $scope.showAlbumFilter = true;
     $scope.toggleAlbumFilter = function() {
         if ($scope.showAlbumFilter) {
             $scope.showAlbumFilter = false;

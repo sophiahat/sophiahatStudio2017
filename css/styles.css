@@ -304,6 +304,11 @@ footer {
 .footer-nav {
     margin-right: 5px;
 }
+
+/*Facebook config*/
+.fb_dialog {
+    bottom: 45pt!important;
+}
 #track a {
 	padding-right:1em;
 }
@@ -655,6 +660,11 @@ footer {
     #carousel-main {
         max-height: 150px;  
     }
+}
+@media (max-width: 582px) {
+    .fb_dialog {
+    bottom: 70pt!important;
+    }  
 }
 @media (max-width: 560px) {
     #carousel-main {

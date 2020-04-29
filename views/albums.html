@@ -18,8 +18,7 @@
                <div class="" ng-model="albums">
                    <div class="">
                        <div class="">
-                           <div class="audio" ng-repeat="album in albums 
-                           ">
+                           <div class="audio" ng-repeat="album in albums" ng-show="album.showSophiahat">
                                <a href ng-click="getAlbumInfo(album)">
                                    <div class="album-item">
                                        <div class="albumImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{album.image}}" alt="Album Item Image"></div>

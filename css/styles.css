@@ -355,10 +355,12 @@ footer {
     margin-right: 5px;
 }
 
-/*Facebook config*/
+/*
+Facebook config
 .fb_dialog {
     bottom: 45pt!important;
 }
+*/
 #track a {
 	padding-right:1em;
 }

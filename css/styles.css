@@ -4,12 +4,16 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 html {
 }
 main {
     margin: 15px auto;
     text-align: center;  
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 main .view-insert {
     text-align: left;
@@ -46,7 +50,7 @@ main .view-insert {
 .branding {
   float: left;
   margin: 0;
-  margin-top: -7px;
+  margin-top: -11px;
 }
 
 .branding a {
@@ -258,6 +262,10 @@ aside {
 a {
 	color:brown;
 }
+.navbar-brand img {
+    height: 4rem;
+}
+
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {

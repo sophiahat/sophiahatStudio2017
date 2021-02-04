@@ -1,6 +1,7 @@
 body {
-	background-color:hsl(28, 10%, 90%);
-	padding-top:51px;
+
+
+    padding-top:51px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -21,7 +22,10 @@ main .view-insert {
     display: inline-block;
 }
 .panel {
-    background: #F8ECEA;
+    /*    background: #F8ECEA;*/
+    background-image: url(../images/SophiaHatTracking1_1subdued2.jpg);
+    background-size: 200%;
+    background-repeat:repeat;
 }
 
 .nav, .pagination, .carousel, .panel-title a { 
@@ -48,21 +52,21 @@ main .view-insert {
 }
 
 .branding {
-  float: left;
-  margin: 0;
-  margin-top: -11px;
+    float: left;
+    margin: 0;
+    margin-top: -11px;
 }
 
 .branding a {
-  width: 80%;
-  font-size: 1.6em;
-  text-align: left;
-  color: #1B7998;
-  text-decoration: none;
+    width: 80%;
+    font-size: 1.6em;
+    text-align: left;
+    color: #1B7998;
+    text-decoration: none;
 }
 
 .branding a:hover {
-  color: none;
+    color: none;
 }
 
 .cf:before,
@@ -76,8 +80,8 @@ main .view-insert {
 }
 
 .error {
-  color: red;
-  padding-bottom: 10px;
+    color: red;
+    padding-bottom: 10px;
 }
 
 .news img {
@@ -86,7 +90,7 @@ main .view-insert {
 }
 .news p {
     padding: 3px 0 10px 0;
-    
+
 }
 .news-item {
     margin: 10px 0;
@@ -97,30 +101,33 @@ main .view-insert {
     background: rgba(120, 120, 120, 0.1);
 }
 
+.news .iframe-container {
+    text-align: center;
+}
 input.ng-invalid.ng-touched {
-  border: 1px solid #DA3637;
+    border: 1px solid #DA3637;
 }
 
 input.ng-valid.ng-touched {
-  border: 1px solid #509D12;
+    border: 1px solid #509D12;
 }
 
 input {
-  width: 100%;
-  display: inline-block;
-  font-weight: 100;
-  padding: 15px;
-  margin: 5px 0;
-  font-size: 1rem;
-  font-weight: 100;
-  color: #475B62;
-  border: 1px solid #C5C5C5;
-  border-radius: 4px;
-  outline: 0;
+    width: 100%;
+    display: inline-block;
+    font-weight: 100;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #475B62;
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    outline: 0;
 }
 
 input[type=radio] {
-  width: auto;
+    width: auto;
 }
 
 .carousel {
@@ -128,7 +135,7 @@ input[type=radio] {
 }
 #carousel-main {
     margin: 0 auto 0;
-/*    min-height: 200px;*/
+    /*    min-height: 200px;*/
     max-height: 250px;
     max-width: 1100px;
     overflow: hidden;   
@@ -142,10 +149,10 @@ input[type=radio] {
 .carousel-inner .active img  {
     opacity: 0;
     -webkit-animation: fadeinout 10s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadeinout 10s; /* Firefox < 16 */
-        -ms-animation: fadeinout 10s; /* Internet Explorer */
-         -o-animation: fadeinout 10s; /* Opera < 12.1 */
-            animation: fadeinout 10s;
+    -moz-animation: fadeinout 10s; /* Firefox < 16 */
+    -ms-animation: fadeinout 10s; /* Internet Explorer */
+    -o-animation: fadeinout 10s; /* Opera < 12.1 */
+    animation: fadeinout 10s;
 }
 @keyframes fadeinout {
     0% { opacity: 0; }
@@ -206,61 +213,70 @@ audio::-webkit-media-controls-panel {
 }
 
 p {
-	text-align:justify;
+    text-align:justify;
 }
 p::first-letter {
-	font-size:130%;
+    font-size:130%;
 }
 .maintext {
-/*	background-image: url(../images/SophiaHatTracking1_1subdued2.jpg);*/
-/*	background-size: 200%;*/
-/*	background-repeat:repeat;*/
-	padding:10px;
-	padding-bottom:60px;
-    height: 770px;  
+    
+    padding:10px;
+    padding-bottom:60px;
+    /*    height: 770px;  */
 }
 .portfolio .maintext {
-    background: none;
+    /*    background: none;*/
 }
 figcaption {
-	font-size: 80%;
-	font-style:italic;
+    font-size: 80%;
+    font-style:italic;
 }
 #layout {
-	align-content:center;
-	text-align:center;
+    align-content:center;
+    text-align:center;
 }
 .sidebar-image {
-	text-align:center;
-	align-content:center;
-	margin-bottom:30px;
+    text-align:center;
+    align-content:center;
+    margin-bottom:30px;
 }
 section .row {
+    background-color:hsl(28, 10%, 90%);
     margin-left: 1px;
 }
 aside {
-	
-	padding:10px;
-	padding-bottom:60px;
-/*    background: rgb(240,240,240);*/
+
+    padding:10px;
+    padding-bottom:60px;
+    /*    background: rgb(240,240,240);*/
     height: 775px;
+}
+
+.about .image-container {
+    padding-right: 15px;
+    margin-top: 7px;
+    max-width: 30%;
+}
+.about .image-container figcaption {
+    margin-top: 5px;
+    text-align: center;
 }
 
 .portfolio .col-md-3 {
     margin: -17px 0 0 0;
     height: 830px;
-/*    background: rgba(0, 0, 0, 0.8);*/
+    /*    background: rgba(0, 0, 0, 0.8);*/
 }
 
 #cd-focus {
-	background:hsl(210, 10%, 93%);
+    background:hsl(210, 10%, 93%);
 }
 #cd-focus img {
-	width:200px;
-	height:200px;
+    width:200px;
+    height:200px;
 }
 a {
-	color:brown;
+    color:brown;
 }
 .navbar-brand img {
     height: 4rem;
@@ -269,37 +285,37 @@ a {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-	background-color:hsl(210, 10%, 93%);
+    background-color:hsl(210, 10%, 93%);
 }
 .accordion h4.panel-title {
     cursor: pointer;
 }
 
 .scroll-box {
-	overflow:auto;
-	height:200px;
+    overflow:auto;
+    height:200px;
 }
 
 #audio-player {
-/*	padding-top:70px;*/
-	
+    /*	padding-top:70px;*/
+
 }
 .cd-images img {
-	width:7.5em;
-	height:7.5em;
+    width:7.5em;
+    height:7.5em;
 }
 #trackDetails {
-	padding-top:4px;
+    padding-top:4px;
 }
 #videos {
-	padding-top:50px;
+    padding-top:50px;
 }
 #videos img {
-	width:25%;
-	height:25%;
+    width:25%;
+    height:25%;
 }
 #video-player {
-	width:300px;
+    width:300px;
 }
 .clients .maintext {
     overflow-x: scroll;
@@ -307,8 +323,8 @@ a {
 }
 .clients .maintext .client-image {
     position: relative;
-	width:150px;
-	height:130px;
+    width:150px;
+    height:130px;
     display: flex;
     padding: 0;
     margin: 0;
@@ -340,15 +356,15 @@ a {
     text-align: center;
 }
 #booking-form iframe{
-	width:600px;
-	height:555px;
+    width:600px;
+    height:555px;
 }
 #booking-form {
-	text-align:center;
-	align-content:center;
+    text-align:center;
+    align-content:center;
 }
 footer {
-	margin-top:35px;
+    margin-top:35px;
 }
 
 .footer-nav {
@@ -358,55 +374,61 @@ footer {
 /*
 Facebook config
 .fb_dialog {
-    bottom: 45pt!important;
+bottom: 45pt!important;
 }
 */
 #track a {
-	padding-right:1em;
+    padding-right:1em;
 }
 #audio-message {
-	font-size: .75em;
-	
+    font-size: .75em;
+
 }
 
-/*
-.services #tabContainer {
-    height: 500px;
-    overflow: scroll;
+.services dt {
+    margin-top: 7px;
+    font-weight: 800;
 }
-*/
+.services .panel-collapse {
+    background-color: hsl(28, 10%, 90%);
+}
 .portfolio .display-audio {
     float: left;
     width: 100%;
     border-radius: 4px;
-/*    border: 1px solid black;*/
+    /*    border: 1px solid black;*/
     margin: 10px 0;
-/*    background: hsl(210, 10%, 93%);*/
+    background: inherit;
+}
+.portfolio #audio .portfolio-tabs {
+    display: flex;
+    justify-content: space-evenly;
 }
 .portfolio #audio {
     clear:both;
     width: 100%;
-/*    border: 1px solid black;*/
+    /*    border: 1px solid black;*/
     border-radius: 4px;
     margin: 10px 0;
 }
 
 .portfolio #albums {
-/*    display: inline-block;*/
+    
+    /*    display: inline-block;*/
     float: left;
     width: 100%;
 }
 
 .portfolio #albums .audio {
-/*    width: 100%;*/
-/*    display: inline;*/
+    /*    width: 100%;*/
+    /*    display: inline;*/
 }
 
 .portfolio #album-focus  {
     margin-top: -30px;
-/*    padding-top: 5px;*/
+    /*    padding-top: 5px;*/
     width: 100%;
-/*    color: white;*/
+    /*    color: white;*/
     text-align: center;
 }
 .portfolio #album-focus h3 {
@@ -420,8 +442,8 @@ Facebook config
 }
 .admin .admin-scrolling-list img,
 .portfolio .video img {
-/*    max-height: 40px;*/
-/*    float: left;*/
+    /*    max-height: 40px;*/
+    /*    float: left;*/
 
 }
 .admin li,
@@ -432,7 +454,7 @@ Facebook config
 .portfolio iframe {
     width: 100%;
     height: auto;
-/*    float: left;*/
+    /*    float: left;*/
 }
 
 .portfolio .bp-media-settings-show-speed {
@@ -443,11 +465,11 @@ Facebook config
 }
 
 .portfolio .portfolio-scrolling-list {
-/*    margin-top: 15px;*/
+    /*    margin-top: 15px;*/
     overflow: scroll;
     height: 345px; 
     -webkit-overflow-scrolling: touch;
-    
+
 }
 .preview-header-wrapper {
     display: none;
@@ -461,9 +483,9 @@ Facebook config
     padding: 5px;
     margin-left: 1.5%;
     margin-top: 0px;
-/*    border: 1px solid #ddd;*/
+    /*    border: 1px solid #ddd;*/
     border-radius: 5px;
-    
+
 }
 
 .portfolio .video img {
@@ -480,7 +502,7 @@ Facebook config
     border-radius: 3px;
 }
 .portfolio .audioImg {
-/*    float: left;*/
+    /*    float: left;*/
 }
 .portfolio .track-search input {
     width: 95%;
@@ -489,7 +511,7 @@ Facebook config
 
 .portfolio .display-audio .audioTitle {
     display: inline-block;
-/*    float: left;*/
+    /*    float: left;*/
     margin-left: 20px;
 }
 .portfolio .audio-item {
@@ -512,25 +534,25 @@ Facebook config
 .portfolio .video h5 {
     color: white;
     height: 45px;
-/*    padding: 2px 5px 0 5px;*/
+    /*    padding: 2px 5px 0 5px;*/
     text-align: center;
 }
 .displayAudio {
-/*    border: solid 1px rgba(150, 150, 150, 0.9);*/
+    /*    border: solid 1px rgba(150, 150, 150, 0.9);*/
     background: rgba(245, 245, 245, 0.4);
     border-radius: 4px;
 }
 
 .displayAudio img {
-   margin: 10px 0 0 5px;
+    margin: 10px 0 0 5px;
     height: 60px;
     float: left;
 }
 
 .audioImg img {
-/*    margin: 5px 0 5px 5px;*/
-/*    height: auto;*/
-/*    float: left;*/
+    /*    margin: 5px 0 5px 5px;*/
+    /*    height: auto;*/
+    /*    float: left;*/
 }
 .audioTitle {
     text-align: center;
@@ -542,14 +564,14 @@ Facebook config
     background: rgba(245, 245, 245, 0.4);
 }
 .audioTitle span {
-    
+
 }
 .audiodescription {
     margin: 5px 5px 5px 0;
     width: 45%;
     float: right;
     overflow-y: scroll;
-/*    height: 125px;*/
+    /*    height: 125px;*/
     background: rgba(245, 245, 245, 0.4);
     padding: 10px;
     border-radius: 3px;
@@ -562,13 +584,14 @@ Facebook config
     text-decoration: none;
 }
 .audio-list {
-/*    margin: 10px 0 0 0;*/
-/*    border: solid 1px rgba(150, 150, 150, 0.9);*/
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
     border-radius: 4px;
     height: 320px;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-/*    background:hsl(210, 10%, 93%);*/
+
 }
 .album-list {
     height: 650px;
@@ -576,7 +599,7 @@ Facebook config
     -webkit-overflow-scrolling: touch;
     clear: both;
     margin: 10px 0;
-/*    background:hsl(210, 10%, 93%);*/
+    /*    background:hsl(210, 10%, 93%);*/
     padding: 3px;
     border-radius: 4px;
 }
@@ -593,14 +616,14 @@ Facebook config
     text-align: center;
     display: block;
     margin: 2px 0;
-    
+
 }
 .albumTitle {
-/*    color: white;*/
+    /*    color: white;*/
 }
 .album-item .albumImg,
 .album-item .albumTitle {
-/*    display: inline-block;*/
+    /*    display: inline-block;*/
 }
 .album-item img {
     width: 125px;
@@ -635,7 +658,7 @@ Facebook config
 .display-audio img{
     width: 125px;
     height: auto;
-    
+
 }
 #album-focus img {
     width: 100%;
@@ -649,23 +672,23 @@ Facebook config
 }
 /*
 .audio-item div:nth-child(even) {
-   background: grey; 
+background: grey; 
 }
 */
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
     margin-bottom: 20px;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 90%;
-	height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
 }
 
 @media (max-width: 992px) {
@@ -715,7 +738,7 @@ Facebook config
 }
 @media (max-width: 582px) {
     .fb_dialog {
-    bottom: 70pt!important;
+        bottom: 70pt!important;
     }  
 }
 @media (max-width: 560px) {

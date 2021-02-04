@@ -9,4 +9,6 @@ myApp.controller('NewsController', ['$scope', function($scope) {
             'page_location' : url,
             'page_path' : '/#!/news'
       });
+    
+    console.log('News controller');
 }]);//Controller

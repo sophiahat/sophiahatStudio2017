@@ -1,15 +1,32 @@
+
 <section class="card news">
     <div class="row">
-        <div class="col-md-9 maintext">
+        <div class="col-md-8 maintext">
             <h1>News</h1>
+            
+            <div class="iframe-container">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsophiahatstudio%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1060578560944216" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                
+            </div>
+            
+            <div>
+                
+                <img src="https://lh3.googleusercontent.com/IrMW42G2DbNUycWnEI3g0ZfI1q397VhemJIuvkCp8ZtFkaOKcHD_wmkXRnr-T7gIWrQ2atmq8M7AIxw-_q-GCOyda20mdn9K2t2NHa6RsrljBw5CPh4U1Dwqk5D-2Ire9YAqvybz5A=w600" alt="">
+            </div>
+
+
+<!--
+            <div class="news-item">
+                <h3>Blank News Item</h3>
+            </div>
             <div class="news-item">
                 <h3>Asteroids Revisited</h3>
                 <img src="images/RiceRocksGame.jpg" alt="Python Game course image">
                 <p>Back in the spring of 2015, I completed the second part of Coursera online course entitled <a href="https://www.coursera.org/course/interactivepython2">'An Introduction to Interactive Programming in Python'</a>.  It was the second course that I've taken in Python and my first attempt at building a game.</p> 
 
-            <p>As I came to the close the end of the course I actually did a little sound design and soundtrack work, although quick and dirty.  It was a lot of fun to actually code the audio and play around with the playback parameters. Please give the game  <a href="http://www.codeskulptor.org/#user40_hHd6qxztgP_60.py" target="_blank">Rice Rocks</a> a go, and feel free to tweak the parameters if you would like.  The comments in the top of the file will give you basic instructions for running the program within CodeSkulptor,  a python shell built to work in a web browser,  along with the ship controls.</p>  
+                <p>As I came to the close the end of the course I actually did a little sound design and soundtrack work, although quick and dirty.  It was a lot of fun to actually code the audio and play around with the playback parameters. Please give the game  <a href="http://www.codeskulptor.org/#user40_hHd6qxztgP_60.py" target="_blank">Rice Rocks</a> a go, and feel free to tweak the parameters if you would like.  The comments in the top of the file will give you basic instructions for running the program within CodeSkulptor,  a python shell built to work in a web browser,  along with the ship controls.</p>  
 
-            <p>Although I've done some simple programming projects in the past, this was certainly the most challenging for me.  I learned a great deal about the logic of game physics, and hope to find more time to learn more in the near future.  </p>
+                <p>Although I've done some simple programming projects in the past, this was certainly the most challenging for me.  I learned a great deal about the logic of game physics, and hope to find more time to learn more in the near future.  </p>
             </div>
             <div class="news-item">
                 <h3>Orchestration Course</h3>
@@ -23,23 +40,24 @@
                 <p>In the Winter of 2014 I took an online course on game audio implementation in Unity through the <a href="http://school.videogameaudio.com/" target="_blank">School of Video Game Audio</a>.  The course explored basic audio scripting using javascript along with sound design concepts for classic shooter type game.</p>
                 <p>During the course we stripped all of the audio out of the unity demo "Angry Bots" and created all new audio assets. We also created scripts for repetitive tasks like footsteps and weapons fire.</p>
             </div>
+-->
         </div>
-         <div class="col-md-3 text-center">
-                <aside role="complementary">
-                    <div ng-include="'views/aside.html'"></div>
-                </aside>
+        <div class="col-md-4 text-center">
+            <aside role="complementary">
+                <div ng-include="'views/aside.html'"></div>
+            </aside>
         </div>
     </div>
-     
+
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
         var url = window.location.href;
-      gtag('config', 'UA-20609405-1', {
+        gtag('config', 'UA-20609405-1', {
             'page_title' : 'news',
             'page_location' : url,
             'page_path' : '/#!/news'
-      });
+        });
     </script>
 </section>

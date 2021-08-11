@@ -384,6 +384,10 @@ bottom: 45pt!important;
     font-size: .75em;
 
 }
+.services figcaption {
+    font-size: 7px;
+    text-align: center;
+}
 
 .services dt {
     margin-top: 7px;

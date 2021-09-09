@@ -396,6 +396,10 @@ bottom: 45pt!important;
 .services .panel-collapse {
     background-color: hsl(28, 10%, 90%);
 }
+.services .media img {
+    width: 150px;
+    height: 150px
+}
 .portfolio .display-audio {
     float: left;
     width: 100%;

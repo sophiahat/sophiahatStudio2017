@@ -61,7 +61,6 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
         while (m) {
             //Pick a remaining element
             i = Math.floor(Math.random() * m--);
-            console.log('M is now:' + m);
             //swap it with the current element
             t = array[m];
             array[m] = array[i];

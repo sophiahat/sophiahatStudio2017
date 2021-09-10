@@ -1,37 +1,33 @@
 <section class="albums">
 
     <div class="list-group">
-       <div id="album-focus">
-          <h3>Filter Tracks by Album</h3>
-<!--
-           <div class="track-filter-button">
-                <button ng-click="filterTracksbyAlbum()" class="btn btn-primary">Filter Tracks by Album Selection</button>
-            </div>
+        <div id="album-focus">
+            <h3>Filter Tracks by Album</h3>
+            <!--
+<div class="track-filter-button">
+<button ng-click="filterTracksbyAlbum()" class="btn btn-primary">Filter Tracks by Album Selection</button>
+</div>
 -->
-<!--
-            <div class="image-container">
-                <img src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{albumFocus.image}}" alt="Album Focus Image">
-            </div>
+            <!--
+<div class="image-container">
+<img src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{albumFocus.image}}" alt="Album Focus Image">
+</div>
 -->
-       </div>
+        </div>
         <div id="albums" class="album-list cf">
-               <div class="" ng-model="albums">
-                   <div class="">
-                       <div class="">
-                           <div class="audio" ng-repeat="album in albums" ng-show="album.showSophiahat">
-                               <a href ng-click="getAlbumInfo(album)">
-                                   <div class="album-item">
-                                       <div class="albumImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{album.image}}" alt="Album Item Image"></div>
-                                       <div class="albumTitle"><span>{{album.title}}</span></div>
-                                   </div>
-                               </a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+            <div id="album-list-container" class="" ng-model="albums">
+                <div class="audio" ng-repeat="album in albums" ng-show="album.showSophiahat">
+                    <a href ng-click="getAlbumInfo(album)">
+                        <div class="album-item">
+                            <div class="albumImg image-container"><img ng-src="https://storage.googleapis.com/chrisspencercreative/images/cd_images/{{album.image}}" alt="Album Item Image"></div>
+                            <div class="album-title"><span>{{album.title}}</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-    
-                      
+
+
     </div>
 </section>

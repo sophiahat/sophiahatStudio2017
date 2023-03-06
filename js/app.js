@@ -45,6 +45,10 @@ myApp.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'views/booking.html',
             controller: 'BookingController'
         }).
+        when('/bookingsubmission', {
+            templateUrl: 'views/bookingsubmission.html',
+            controller: 'BookingSubmissionController'
+        }).
         when('/clients', {
             templateUrl: 'views/clients.html',
             controller: 'ClientController'

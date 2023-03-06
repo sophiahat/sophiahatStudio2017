@@ -83,6 +83,9 @@ main .view-insert {
     clear: both;
 }
 
+.thanks {
+    height: 600px;
+}
 .error {
     color: red;
     padding-bottom: 10px;

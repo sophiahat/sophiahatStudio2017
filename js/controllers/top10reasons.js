@@ -1,4 +1,4 @@
-myApp.controller('ServicesController', ['$scope', function($scope) {
+myApp.controller('ReasonsController', ['$scope', function($scope) {
 //    update google analytics
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -6,7 +6,7 @@ myApp.controller('ServicesController', ['$scope', function($scope) {
         var url = window.location.href;
       gtag('config', 'G-PPSLQ4H1YW');
       gtag('event', 'page_view', {
-            page_title : 'Services',
+            page_title : 'Top10Reasons',
             page_location : url
       });
 }]);//Controller

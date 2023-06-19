@@ -68,7 +68,8 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'GearController'
         }).
         when('/home', {
-            templateUrl: 'views/home.html'
+            templateUrl: 'views/home.html',
+            controller: 'HomeController'
         }).
         when('/layout', {
             templateUrl: 'views/layout.html',
@@ -103,13 +104,15 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'ServicesController'
         }).
         when('/studio-policy', {
-            templateUrl: 'views/studio-policy.html'
+            templateUrl: 'views/studio-policy.html',
+            controller: 'PoliciesController'
         }).
         when('/thanks', {
             templateUrl: 'views/thanks.html'
         }).
         when('/top-ten-reasons', {
-            templateUrl: 'views/top-ten-reasons.html'
+            templateUrl: 'views/top-ten-reasons.html',
+            controller: 'ReasonsController'
         }).
         otherwise({
             redirectTo: '/home'});  

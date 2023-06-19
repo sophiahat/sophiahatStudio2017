@@ -2,16 +2,16 @@ myApp.controller('PortfolioController', ['$scope', '$firebaseAuth', '$firebaseAr
     //Restyle page
     
     $('main').css('margin-right', 0);
-//    update google analytics
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-        var url = window.location.href;
-      gtag('config', 'UA-20609405-1', {
-            'page_title' : 'Portfolio',
-            'page_location' : url,
-            'page_path' : '/#!/portfolio'
-      });
+//    update google analytics- Marked for Deletion - redundant
+//      window.dataLayer = window.dataLayer || [];
+//      function gtag(){dataLayer.push(arguments);}
+//      gtag('js', new Date());
+//        var url = window.location.href;
+//      gtag('config', 'G-PPSLQ4H1YW', {
+//            'page_title' : 'Portfolio',
+//            'page_location' : url,
+//            'page_path' : '/#!/portfolio'
+//      });
     
     // tab management
     $scope.tab = 2;

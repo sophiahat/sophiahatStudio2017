@@ -1,6 +1,4 @@
 body {
-
-
     padding-top:51px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -245,7 +243,11 @@ figcaption {
 .sidebar-image {
     text-align:center;
     align-content:center;
-    margin-bottom:30px;
+/*    margin-bottom:30px;*/
+}
+
+.reviews {
+    padding: 25px;
 }
 section .row {
     background-color:hsl(28, 10%, 90%);
@@ -253,10 +255,10 @@ section .row {
 }
 aside {
 
-    padding:10px;
-    padding-bottom:60px;
+    padding-top:10px;
+/*    padding-bottom:60px;*/
     /*    background: rgb(240,240,240);*/
-    height: 775px;
+/*    height: 775px;*/
 }
 
 .about .image-container {

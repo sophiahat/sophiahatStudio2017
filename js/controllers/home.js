@@ -1,5 +1,6 @@
 myApp.controller('HomeController', ['$scope', function($scope) {
 //    update google analytics
+    console.log('home controller');
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -9,4 +10,5 @@ myApp.controller('HomeController', ['$scope', function($scope) {
             page_title : 'Home',
             page_location : url
       });
+
 }]);//Controller

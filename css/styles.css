@@ -23,6 +23,42 @@ main .view-insert {
     max-width: 1100px;
     display: inline-block;
 }
+.clear {
+    clear:both;
+}
+.grid {
+/*    background-color: lightblue;*/
+/*    max-width: 1200px;*/
+    margin-left: 70px;
+}
+.grid:after{
+    content: '';
+    display: block;
+/*    clear: both;*/
+}
+.grid-item {
+    width:42%;
+/*    height: 200px;*/
+    float: left;
+    margin-top: 15px;
+/*    padding-left: 5px;*/
+/*    background: #D26;*/
+/*    border: 2px solid #333;*/
+    
+}
+.grid-item--width2 {
+    width: 400px
+}
+.grid-item img {
+    width:100%;
+    display:block;
+    border-color: hsla(0, 0%, 0%, 0.5);
+    border-radius: 5px;  
+}
+#alignable-recommendations {
+    margin: 0 auto;
+    width: 900px;
+}
 .panel {
     /*    background: #F8ECEA;*/
     background-image: url(../images/SophiaHatTracking1_1subdued2.jpg);

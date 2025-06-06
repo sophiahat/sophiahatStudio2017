@@ -10,16 +10,16 @@ myApp.controller('ReviewController', ['$scope', function($scope) {
             page_title : 'Reviews',
             page_location : url
       });
-    //    Initialize Masonry
-    const $grid = $('.grid').masonry({
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        columnWidth: 200
-    });
-//    layout masonry after each image loads
-    $grid.imagesLoaded().progress(function() {
-        $grid.masonry();
-    });
+//    //    Initialize Masonry
+//    const $grid = $('.grid').masonry({
+//        itemSelector: '.grid-item',
+//        percentPosition: true,
+//        columnWidth: 200
+//    });
+////    layout masonry after each image loads
+//    $grid.imagesLoaded().progress(function() {
+//        $grid.masonry();
+//    });
 
 }]);//    controller
 

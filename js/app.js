@@ -107,6 +107,10 @@ myApp.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'views/services.html',
             controller: 'ServicesController'
         }).
+        when('/mixing', {
+            templateUrl: 'views/mixing.html',
+            controller: 'MixingController'
+        }).
         when('/studio-policy', {
             templateUrl: 'views/studio-policy.html',
             controller: 'PoliciesController'

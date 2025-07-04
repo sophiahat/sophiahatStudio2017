@@ -1,6 +1,6 @@
 myApp.controller('ProjectUploadController', ['$scope', function($scope) {
     console.log('Project Upload form Page');
-   $scope.devMode = true;
+   $scope.devMode = false;
     //    update google analytics
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}

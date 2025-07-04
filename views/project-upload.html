@@ -1,8 +1,75 @@
 <section class="card">
     <div class="row">
         <h1>Project Creation</h1>
+        <div ng-show="devMode">
+            <p>
+                Under Construction - Coming soon!  In the meantime, feel free to email me at <a href="mailto:info@sophiahatstudio.com">info@sophiahatstudio.com</a> with your project info and I'll reply with any questions and a file upload link.  
+            </p>
+        </div>
+        <div class="" ng-hide="devMode">
+               <p>Please fill out as much information as possible, it will give us some context of what you are going for.  You can provide a link to your session files, or let us know in the notes area and we can send a secure folder link.  Also, if you have a mix reference link (another song mix that is how you would like your mix to sound) that is also helpful.</p>
+               
+               <p>We will respond as soon as possible (usually within 1 business day) and follow up with questions and feedback, along with a quote for the project.  </p>
+               
+               
+                <form action="forms/project-upload.php" method="post" id="cs-upload-form" class="" accept-charset="UTF-8">
+                    <fieldset>
+                        <legend><h2>Project Upload Form</h2></legend>
+                        <div class="form-group">
+                            <label for="fullname" class="col-sm-3 control-label"> Name (required)</label>
+                            <div class="col-sm-9">
+                                <input type="text" id="fullname" name="fullname" class="form-control input-sm" placeholder="First and Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 control-label"> Email(required)</label>
+                            <div class="col-sm-9">
+                                <input type="text" id="email" name="email" class="form-control input-sm" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="title" class="col-sm-3 control-label">Title</label>
+                            <div class="col-sm-9">
+                                <input type="text" id="title" name="title" class="form-control input-sm" placeholder="My Song Title">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="link" class="col-sm-3 control-label">Link to Files</label>
+                            <div class="col-sm-9">
+                                <input type="url" id="link" name="link" class="form-control input-sm" placeholder="'https://drive.google.com/yoursong.mp3'">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="style" class="col-sm-3 control-label">Mix Style</label>
+                            <div class="col-sm-9">
+                                <input type="text" id="style" name="style" class="form-control input-sm" placeholder="'Vintage', 'Warm', 'Modern', 'Tight', etc.">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="genre" class="col-sm-3 control-label"> Genre</label>
+                            <div class="col-sm-9">
+                                <input type="text" id="genre" name="genre" class="form-control input-sm" placeholder="'Blues', 'Singer Songwriter', 'Metal', 'Classical', 'Sound Track'">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="reference" class="col-sm-3 control-label"> Reference Link</label>
+                            <div class="col-sm-9">
+                                <input type="url" id="reference" name="reference" class="form-control input-sm" placeholder="https://spotify.com/SimilarSongMix.mp3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes" class="col-sm-3 control-label"> Notes</label>
+                            <div class="col-sm-9">
+                                <textarea name="notes" id="notes"  rows="15" class="form-control input-sm" placeholder="Anything else that you think would be helpful..."></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                           <button class="btn btn-danger" id="cs-formsubmit">Submit</button>
+                       </div>
+                        
+                    </fieldset>
+                </form>
+            </div>
     </div>
-    <div ng-show="devMode"><p>
-        Under Construction - Coming soon!  In the meantime, feel free to email me at <a href="mailto:info@sophiahatstudio.com">info@sophiahatstudio.com</a> with your project info and I'll reply with any questions and a file upload link.  
-    </p></div>
+    
 </section>

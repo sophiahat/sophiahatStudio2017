@@ -9,55 +9,75 @@
                 </p>
             </div>
             <div class="" ng-hide="devMode">
-               <p>Please fill out as much information as possible, it will give us some context of what you are going for.  If you can share a link to your mix that would be great.  Also, if you have a mix reference link (another song mix that you are referencing in your mix) that is also helpful.</p>
-                <form action="forms/critique.php" method="post" id="cs-critique-form" class="" accept-charset="UTF-8">
+               <p>Please fill out as much information as possible, it will give us some context of what you are going for.</p>
+                <form action="forms/critique.php" method="POST" enctype="multipart/form-data" id="cs-critique-form" class="" accept-charset="UTF-8">
                     <fieldset>
-                        <legend><h2>Mix Critique Upload Form</h2></legend>
+                        <h3>Contact Info</h3>
+                        <p>Name and Email at least, give us a phone number if you would like a call to discuss your mix.</p>
                         <div class="form-group">
-                            <label for="fullname" class="col-sm-3 control-label"> Name (required)</label>
-                            <div class="col-sm-9">
+                            <label for="fullname" class="col-sm-4 control-label"> Name (required)</label>
+                            <div class="col-sm-8">
                                 <input type="text" id="fullname" name="fullname" class="form-control input-sm" placeholder="First and Last Name" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="email" class="col-sm-3 control-label"> Email(required)</label>
-                            <div class="col-sm-9">
+                            <label for="email" class="col-sm-4 control-label"> Email(required)</label>
+                            <div class="col-sm-8">
                                 <input type="text" id="email" name="email" class="form-control input-sm" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="title" class="col-sm-3 control-label">Title</label>
-                            <div class="col-sm-9">
+                            <label for="phone" class="col-sm-4 control-label"> Phone</label>
+                            <div class="col-sm-8">
+                                <input type="tel" id="phone" name="phone" class="form-control input-sm" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <h3>Track Info</h3>
+                        <p>Please give us a name for your song even if its a a working title. You can either share a link to your file or upload it. </p>
+                        <div class="form-group">
+                            <label for="title" class="col-sm-4 control-label">Title</label>
+                            <div class="col-sm-8">
                                 <input type="text" id="title" name="title" class="form-control input-sm" placeholder="My Song Title">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="link" class="col-sm-3 control-label">Link</label>
-                            <div class="col-sm-9">
+                            <label for="link" class="col-sm-4 control-label">File Link</label>
+                            <div class="col-sm-8">
                                 <input type="url" id="link" name="link" class="form-control input-sm" placeholder="'https://drive.google.com/yoursong.mp3'">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="style" class="col-sm-3 control-label">Mix Style</label>
-                            <div class="col-sm-9">
+                            <label for="upload" class="col-sm-4 control-label" >File Upload (WAV, MP3, max filesize 50mb)</label>
+                            <div class="col-sm-8">
+                                <input type="file" id="upload" name="upload" class="form-control input-sm" accept=".wav,.mp3,audio/*" >
+                            </div>
+                        </div>
+                        <h3>Mix Info</h3>
+                        <p>This info gives us an idea of what you are going for with this track.  The 'Mix Style' refers to the type of mix you were trying to achieve and the 'Genre' refers to the musical style that the track falls into. The 'Reference Link' is a place for you to share a link to another track that has inspired your mix.</p>
+                        <div class="form-group">
+                            <label for="style" class="col-sm-4 control-label">Mix Style</label>
+                            <div class="col-sm-8">
                                 <input type="text" id="style" name="style" class="form-control input-sm" placeholder="'Vintage', 'Warm', 'Modern', 'Tight', etc.">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="genre" class="col-sm-3 control-label"> Genre</label>
-                            <div class="col-sm-9">
+                            <label for="genre" class="col-sm-4 control-label"> Genre</label>
+                            <div class="col-sm-8">
                                 <input type="text" id="genre" name="genre" class="form-control input-sm" placeholder="'Blues', 'Singer Songwriter', 'Metal', 'Classical', 'Sound Track'">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="reference" class="col-sm-3 control-label"> Reference Link</label>
-                            <div class="col-sm-9">
+                            <label for="reference" class="col-sm-4 control-label"> Reference Link</label>
+                            <div class="col-sm-8">
                                 <input type="url" id="reference" name="reference" class="form-control input-sm" placeholder="https://spotify.com/SimilarSongMix.mp3">
                             </div>
                         </div>
+                        <h3>Final Thoughts</h3>
+                        <p>If you have any more details that you would like to share, put them here.</p>
                         <div class="form-group">
-                            <label for="notes" class="col-sm-3 control-label"> Notes</label>
-                            <div class="col-sm-9">
+                            <label for="notes" class="col-sm-4 control-label"> 
+                            Notes</label>
+                            <div class="col-sm-8">
                                 <textarea name="notes" id="notes"  rows="15" class="form-control input-sm" placeholder="Anything else that you think would be helpful..."></textarea>
                             </div>
                         </div>

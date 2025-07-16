@@ -20,7 +20,7 @@ $use_webmaster_email_for_from = 0;
 $my_recaptcha_private_key = '' ;
 
 $allowedTypes = ['audio/wav', 'audio/x-wav', 'audio/mp3', 'audio/mpeg'];
-$maxFileSize = 50 * 1024 * 1024;
+$maxFileSize = 75 * 1024 * 1024;
 
 // -------------------- END OF CONFIGURABLE SECTION ---------------
 

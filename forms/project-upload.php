@@ -63,7 +63,7 @@ $subject = "sophiahat New Project Upload" ;
 $formurl = "https://sophiahatstudio.com/#!/project-upload" ;
 $thankyouurl = "https://sophiahatstudio.com/#!/thanks" ;
 $errorurl = "https://sophiahatstudio.com/#!/error" ;
-$want_tel_field = 0;
+$want_tel_field = 1;
 $want_addr_field = 0;
 
 $email_is_required = 1;
@@ -75,6 +75,9 @@ $use_sendmailfrom = 0;
 $smtp_server_win = '' ;
 $use_webmaster_email_for_from = 0;
 $my_recaptcha_private_key = '' ;
+
+$allowedTypes = ['audio/wav', 'audio/x-wav', 'audio/mp3', 'audio/mpeg'];
+$maxFileSize = 75 * 1024 * 1024;
 
 // -------------------- END OF CONFIGURABLE SECTION ---------------
 
@@ -90,7 +93,10 @@ if (strlen($smtp_server_win)) {
 $envsender = "-f$mailto" ;
 $fullname = trim($_POST['fullname']) ;
 $email = trim($_POST['email']) ;
+$emailSafe = preg_replace('/[^a-zA-Z0-9_\-]/', '_', $email);
+$phone = trim($_POST['phone']) ;
 $title = trim($_POST['title']) ;
+$prepared = trim($_POST['prepared']) ;
 $link = trim($_POST['link']) ;
 $style = trim($_POST['style']) ;
 $genre = trim($_POST['genre']) ;
@@ -129,8 +135,40 @@ $fromemail = $use_webmaster_email_for_from ? $mailto : $email ;
 if (function_exists( 'get_magic_quotes_gpc' ) && get_magic_quotes_gpc()) {
 	$notes = stripslashes( $notes );
 }
+
+$baseDir = dirname(__DIR__, 2) . '/uploads/';
+$uploadDir = $baseDir . $emailSafe . '/';
+
+if (!is_dir($uploadDir)) {
+    mkdir($uploadDir, 0755, true);
+}
+
+foreach ($_FILES['upload']['error'] as $key => $error) {
+    if ($error == UPLOAD_ERR_OK) {
+        $fileTmp  = $_FILES['upload']['tmp_name'][$key];  
+        $fileName = basename($_FILES['upload']['name'][$key]);
+        $targetFile = $uploadDir . time() . '_' . $fileName; // Add timestamp to avoid overwrites
+        if (move_uploaded_file($fileTmp, $targetFile)) {
+            echo "✅ File uploaded successfully to: $targetFile";
+        } else {
+            echo "❌ Failed to move uploaded file.";
+        }
+    }
+}
+
+//
+//$fileTmp  = $_FILES['upload']['tmp_name'];
+//$fileName = basename($_FILES['upload']['name']);
+//$targetFile = $uploadDir . time() . '_' . $fileName; // Add timestamp to avoid overwrites
+//
+//if (move_uploaded_file($fileTmp, $targetFile)) {
+//    echo "✅ File uploaded successfully to: $targetFile";
+//} else {
+//    echo "❌ Failed to move uploaded file.";
+//}
+
 $opt_flds = $want_addr_field ? "Address: " . $_POST['addr'] . $linesep : '' ;
-$opt_flds .= $want_tel_field ? "Telephone: " . $_POST['tel'] . $linesep : '' ;
+$opt_flds .= $want_tel_field ? "Telephone: " . $_POST['phone'] . $linesep : '' ;
 $messageproper =
 	"This message was sent from:" . $linesep .
 	$http_referrer . $linesep .
@@ -142,6 +180,7 @@ $messageproper =
 	"Mix Style: $style" . $linesep .
 	"Genre Description: $genre" . $linesep .
 	"Reference Link: $reference" . $linesep .
+	"Followed File Prep Guidelines: $preparation" . $linesep .
 	$opt_flds .
 	"------------------------- notes -------------------------" . $linesep . $linesep .
 	$notes . $linesep . $linesep .

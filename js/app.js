@@ -119,6 +119,9 @@ myApp.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'views/project-upload.html',
             controller: 'ProjectUploadController'
         }).
+        when('/mix-preparation', {
+            templateUrl:'views/file-preparation.html'
+        }).
         when('/studio-policy', {
             templateUrl: 'views/studio-policy.html',
             controller: 'PoliciesController'

@@ -113,5 +113,50 @@
        
         
 	</body>
+	<script>
+    document.getElementById('cs-upload-form').addEventListener('submit', function (e) {
+      e.preventDefault(); // Stop normal form submission
+
+      const form = e.target;
+      const formData = new FormData(form);
+      const xhr = new XMLHttpRequest();
+
+      const progressWrapper = document.getElementById('progressWrapper');
+      const progressBar = document.getElementById('progressBar');
+      const progressText = document.getElementById('progressText');
+      const uploadStatus = document.getElementById('uploadStatus');
+
+      // Reset UI
+      progressWrapper.style.display = 'block';
+      progressBar.value = 0;
+      progressText.textContent = '0%';
+      uploadStatus.innerHTML = '';
+
+      // Handle progress
+      xhr.upload.addEventListener('progress', function (e) {
+        if (e.lengthComputable) {
+          const percent = Math.round((e.loaded / e.total) * 100);
+          progressBar.value = percent;
+          progressText.textContent = percent + '%';
+        }
+      });
+
+      // Handle response
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          uploadStatus.innerHTML = `<span style="color:green;">✅ Upload complete!</span><br>${xhr.responseText}`;
+        } else {
+          uploadStatus.innerHTML = `<span style="color:red;">❌ Upload failed (${xhr.status})</span>`;
+        }
+      };
+
+      // Optional: disable submit button during upload
+      form.querySelector('button[type="submit"]').disabled = true;
+
+      // POST to your PHP upload handler
+      xhr.open('POST', 'forms/project-upload.php'); // Adjust path if needed
+      xhr.send(formData);
+    });
+    </script>
 
 </html>

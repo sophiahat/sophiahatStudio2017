@@ -11,4 +11,6 @@ myApp.controller('ProjectUploadController', ['$scope', function($scope) {
             page_title : 'Project Upload Form',
             page_location : url
       });
+    
+    
 }]);
